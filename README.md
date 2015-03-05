@@ -6,7 +6,7 @@ Course materials for [General Assembly's Data Science course](https://generalass
 
 Monday | Wednesday
 --- | ---
-| 3/18: Introduction and Python
+ | 3/18: Introduction and Python
 3/23: Git and Command Line | 3/25: Exploratory Data Analysis
 3/30: Visualization and APIs | 4/1: Machine Learning and KNN
 4/6: Bias-Variance and Train/Test Split | 4/8: Kaggle Titanic (Part 1)
@@ -31,7 +31,9 @@ Monday | Wednesday
 * Install the [Anaconda distribution](http://continuum.io/downloads) of Python 2.7x.
 * Install [Git](http://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and create a [GitHub](https://github.com/) account.
 * Once you receive an email invitation from Slack, join our "DAT5 team" and add your photo.
-* Choose a [Python workshop](https://generalassemb.ly/education?format=classes-workshops) to attend, depending upon your current skill level: Beginner ([Sat 3/7 10am-2pm](https://generalassemb.ly/education/introduction-to-python-programming/washington-dc/11137) or [Thurs 3/12 6:30pm-9pm](https://generalassemb.ly/education/introduction-to-python-programming/washington-dc/11136)), Intermediate ([Sat 3/14 10am-2pm](https://generalassemb.ly/education/python-for-data-science-intermediate/washington-dc/11167)).
+* Choose a [Python workshop](https://generalassemb.ly/education?format=classes-workshops) to attend, depending upon your current skill level:
+    * Beginner: [Saturday 3/7 10am-2pm](https://generalassemb.ly/education/introduction-to-python-programming/washington-dc/11137) or [Thursday 3/12 6:30pm-9pm](https://generalassemb.ly/education/introduction-to-python-programming/washington-dc/11136)
+    * Intermediate: [Saturday 3/14 10am-2pm](https://generalassemb.ly/education/python-for-data-science-intermediate/washington-dc/11167)
 * Practice your Python using the resources below.
 
 
