@@ -20,6 +20,26 @@ Monday | Wednesday
 6/1: Course Review | 6/3: Project Presentation #2
 
 
+### Key Project Dates
+* March 30: Deadline for discussing your project idea(s) with an instructor
+* April 6: Project question and dataset (write-up)
+* April 27: Project presentation #1 (slides, code, visualizations)
+* May 18: First draft due (draft of project paper, code, visualizations)
+* May 25: Peer review due
+* June 3: Project presentation #2 (project paper, slides, code, visualizations, data, data dictionary)
+
+
+### Key Project Links
+* [Course project requirements](other/project.md)
+* [Public data sources](other/public_data.md)
+* [Kaggle competitions](http://www.kaggle.com/)
+* Examples of data science projects:
+    * [GA Data Science students](https://github.com/justmarkham/DAT-project-examples)
+    * [Zipfian Academy students](http://www.zipfianacademy.com/alumni)
+    * [Student in Stanford's Machine Learning course](http://cs229.stanford.edu/projects2014.html)
+* [Peer review guidelines](other/peer_review.md)
+
+
 ### Logistics
 * Office hours will take place every Saturday and Sunday.
 * Homework will be assigned every Wednesday and due on Monday, and you'll receive feedback by Wednesday.
