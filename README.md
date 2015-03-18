@@ -43,11 +43,13 @@ Monday | Wednesday
 ### Logistics
 * Office hours will take place every Saturday and Sunday.
 * Homework will be assigned every Wednesday and due on Monday, and you'll receive feedback by Wednesday.
-    * [Homework submission form](http://bit.ly/dat5homework) (also for project submissions)
-    * [Gist](https://gist.github.com/) is an easy way to put your homework online.
-* We will ask for your feedback at the end of every class.
-    * [Feedback submission form](http://bit.ly/dat5feedback)
 * Our primary tool for out-of-class communication will be a private chat room through [Slack](https://slack.com/).
+
+
+### Submission Forms
+* [Homework submission form](http://bit.ly/dat5homework) (also for project submissions)
+    * [Gist](https://gist.github.com/) is an easy way to put your homework online
+* [Feedback submission form](http://bit.ly/dat5feedback) (at the end of every class)
 
 
 ### Before the Course Begins
