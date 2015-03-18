@@ -43,7 +43,10 @@ Monday | Wednesday
 ### Logistics
 * Office hours will take place every Saturday and Sunday.
 * Homework will be assigned every Wednesday and due on Monday, and you'll receive feedback by Wednesday.
-* The course project is split into two parts. You'll present the first part in the middle of the course, and the second part at the end of the course.
+    * [Homework submission form](http://bit.ly/dat5homework) (also for project submissions)
+    * [Gist](https://gist.github.com/) is an easy way to put your homework online.
+* We will ask for your feedback at the end of every class.
+    * [Feedback submission form](http://bit.ly/dat5feedback)
 * Our primary tool for out-of-class communication will be a private chat room through [Slack](https://slack.com/).
 
 
