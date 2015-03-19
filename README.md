@@ -78,10 +78,10 @@ Monday | Wednesday
 * Course overview ([slides](slides/01_course_overview.pdf))
 * Brief tour of Slack
 * Checking the setup of your laptop
-* Python lesson with [airline safety data](https://github.com/fivethirtyeight/data/tree/master/airline-safety)
+* Python lesson with [airline safety data](https://github.com/fivethirtyeight/data/tree/master/airline-safety) ([code](code/01_reading_files.py))
 
 **Homework:**
-* Python exercises with [Chipotle order data](https://github.com/TheUpshot/chipotle)
+* Python exercises with [Chipotle order data](https://github.com/TheUpshot/chipotle) (listed at bottom of [code](code/01_reading_files.py) file)
 * Work through GA's excellent introductory [command line tutorial](http://generalassembly.github.io/prework/command-line/#/) and then take this brief [quiz](https://gahub.typeform.com/to/J6xirf).
 * Read through the [course project requirements](other/project.md) and start thinking about your own project!
 
