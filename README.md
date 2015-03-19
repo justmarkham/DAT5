@@ -33,10 +33,7 @@ Monday | Wednesday
 * [Course project requirements](other/project.md)
 * [Public data sources](other/public_data.md)
 * [Kaggle competitions](http://www.kaggle.com/)
-* Examples of data science projects:
-    * [GA Data Science students](https://github.com/justmarkham/DAT-project-examples)
-    * [Zipfian Academy students](http://www.zipfianacademy.com/alumni)
-    * [Students in Stanford's Machine Learning course](http://cs229.stanford.edu/projects2014.html)
+* [Examples of student projects](https://github.com/justmarkham/DAT-project-examples)
 * [Peer review guidelines](other/peer_review.md)
 
 
