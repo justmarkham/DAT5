@@ -154,6 +154,7 @@ An absolute file path specifies a path to a file assuming there is no knowledge 
 * Let’s you **pipe** commands into each other
 * `<command 1> | <command 2> | <command 3>` pipes these three commands into each other.  `<command 1>` completes and the results of it are piped into `<command 2>`.  `<command 2>` completes and the results of it are pipe into `<command 3>`.  `<command 3>` completes and the results of it are printed to the console.
 * This concept is a very powerful one on the command line.  This allows you to do complex things all from the command line.
+* Many commands will use the output from a previous command as the input for the next command.
 
 ##### `>`
 * `<command> > <file>` takes the output of the <command> and saves it in a <file>.
