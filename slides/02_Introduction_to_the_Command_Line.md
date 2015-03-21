@@ -129,13 +129,15 @@ An absolute file path specifies a path to a file assuming there is no knowledge 
 
 ##### `grep`
 * `grep <pattern>` **g**lobally searches for a **r**egular **e**xpression and **p**rints the matches to the console.
-* Returns partial matches
+* Works for partial matches
 * Returns the line that matched.
 * `grep <pattern> <file>` searches a <file> for the <patter> and prints the matching lines to the console.
+* If no file is given, `grep` will operate on the output from the previous command.
 
 ##### `wc`
 * `wc <file>` returns the **c**ount of lines, **w**ords, and characters in a file.
 * **Note**: A word is any set of characters delimited by space.
+* If no file is given, `wc` will opearte on the output from the previous command.
 * Combining `wc` and `grep` is a useful way of determining how many occurences of a specific word there are in a file.
 
 ##### `wget`
@@ -181,10 +183,10 @@ An absolute file path specifies a path to a file assuming there is no knowledge 
 * I would not recommend doing a lot of work in VIM, though it is useful to be aware of.
 
 ## Homework
-* Using the command line, look at the file `SMSSpamCollection.txt` in the `data` directory.  It contains text messages that are labeled as spam or ham (the opposite of spam).  Answer the following questions:
+* Using the command line, look at the file `SMSSpamCollection.txt` (Source: https://archive.ics.uci.edu/ml/machine-learning-databases/00228/smsspamcollection.zip) in the `data` directory.  It contains text messages that are labeled as spam or ham (the opposite of spam).  Answer the following questions:
     * How many text messages are there?
     * What is the average number of words per text?  What is the average number of characters per text?
     * How many messages are spam?  How many are ham?
     * Is there a difference between the number of words per text and characters per text in messages that are spam vs. those that are ham?  What are these numbers?
-    * **Hint**: Many commands only return
+    * **Bonus**: If you feel that this is too easy, research the `awk` command to learn how to calculate and print out these averages in the console.
 * Separate the spam and ham messages into files "spam_messages.txt" and "ham_messages.txt".
