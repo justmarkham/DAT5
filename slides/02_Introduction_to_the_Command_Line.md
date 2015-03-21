@@ -2,6 +2,12 @@
 This document outlines some basic commands for the Unix command line.  For Linux and OS X users, these should work in **Terminal**.  For Windows users, most of these will work in **Git Bash**.  
 **Note**: Most of these commands will not work in the Windows Command Prompt.
 
+### What is the command line? 
+The Command Line Interface (CLI) is a way of interacting with your computer based upon the text commands you type.  This is different from the way most people interact with their computers using their mouse and a Graphical User Interface (GUI).
+
+### Why should I use it?
+Once you become comfortable with the basics, it is a much more powerful way to use your computer.  You're able to do many things more quickly and programatically.  Also, you look cooler when using the command line.
+
 ### General Command Format
 `<command> -<options> <arguments>`
 * `<command>` is the actual command
