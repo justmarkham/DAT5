@@ -69,11 +69,11 @@ An absolute file path specifies a path to a file assuming there is no knowledge 
 * `cp <current file location> <new file location>` will **c**o**p**y a file from it's <current file location> to a <new file location>, leaving the original file untouched.  
 * This is different from `mv` in that you are creating a new file and putting it somewhere rather than just moving the current file.
 
-### More Complicated Commands
-
 ##### `zip`/`unzip`
 * `zip <file>` will zip/compress a file.
 * `unzip <file>` will unzip/uncompress a file.
+
+### Advanced Commands
 
 ##### `find`
 * `find -name <name>` will search the current working directory (`pwd`) and **find** files and folders of the given <name>.
@@ -86,11 +86,11 @@ An absolute file path specifies a path to a file assuming there is no knowledge 
 * This is a very useful and powerful command.
 
 ##### `head`
-* `head <file>` prints the **head** (first five lines) of the <file>
+* `head <file>` prints the **head** (first ten lines) of the <file>
 * This is useful for looking at the beginning of a large file before performing a command on it.
 
 ##### `tail`
-* `tail <file>` prints the **tail** (last five lines) of the <file>
+* `tail <file>` prints the **tail** (last ten lines) of the <file>
 * This is useful for looking at the end of a large file before performing a command on it.
 
 ##### `cat`
@@ -117,6 +117,8 @@ An absolute file path specifies a path to a file assuming there is no knowledge 
 
 ##### `wget`
 * `wget <url>` will go to the **w**eb and **get** the resources at the specified <url>.
+
+### Command Line Utilities
 
 ##### `sudo`
 * `sudo <command>` runs the <command> with admin access.
