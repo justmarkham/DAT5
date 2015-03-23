@@ -90,14 +90,19 @@ Monday | Wednesday
 -----
 
 ### Class 2: Git and Command Line
-* Git and GitHub
-* Command line
+* Command line ([slides](https://github.com/justmarkham/DAT5/blob/master/slides/02_Introduction_to_the_Command_Line.md))
+* Git and GitHub ([slides](https://github.com/justmarkham/DAT5/blob/master/slides/02_git_github.pdf))
 * Any initial questions about the course project?
+
+**Homework:**
+* **Note**:  This homework is not due until Monday.
+* Command line exercises with [SMS Spam Data](https://archive.ics.uci.edu/ml/datasets/SMS+Spam+Collection) (listed at the bottom of [Introduction to the command Line](https://github.com/justmarkham/DAT5/blob/master/slides/02_Introduction_to_the_Command_Line.md)
 
 **Optional:**
 * Browse through some [example student projects](https://github.com/justmarkham/DAT-project-examples) to stimulate your thinking and give you a sense of project scope.
 
 **Resources:**
+* This [Command Line Primer[(http://lifehacker.com/5633909/who-needs-a-mouse-learn-to-use-the-command-line-for-almost-anything) goes a bit more into command line scripting.
 * Read the first two chapters of [Pro Git](http://git-scm.com/book/en/v2) to gain a much deeper understanding of version control and basic Git commands.
 * Watch [Introduction to Git and GitHub](https://www.youtube.com/playlist?list=PL5-da3qGB5IBLMp7LtN8Nc3Efd4hJq0kD) (36 minutes) for a quick review of a lot of today's material.
 * [GitRef](http://gitref.org/) is an excellent reference guide for Git commands, and [Git quick reference for beginners](http://www.dataschool.io/git-quick-reference-for-beginners/) is a shorter guide with commands grouped by workflow.
