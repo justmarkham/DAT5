@@ -11,24 +11,24 @@ Once you become comfortable with the basics, it is a much more powerful way to u
 ### General Command Format
 `<command> -<options> <arguments>`
 * `<command>` is the actual command
-* `<options>` (AKA “flags”) specify different ways of executing the command
+* `<options>` (AKA “flags”) specify different ways of or options for executing the command
 * `<arguments>` are things that go “into” the command to be operated on
 
 ### General Tips
-* If there are spaces in file/folder names, use a “\” to “escape” the space characters or put the entire file path in quotes
-* Type the first few letters of the file or folder name, then hit tab to autocomplete the file or folder name.  This often auto escapes spaces for you.
-* Use the up and down arrow keys to navigate old commands
+* If there are spaces in file/folder names, use a “\” to “escape” the space characters or put the entire file path in quotes.
+* Type the first few letters of the file or folder name, then hit tab to autocomplete the file or folder name.  This often auto-escapes spaces for you.
+* Use the up and down arrow keys to navigate previously entered commands.
 
 ### Getting Help With a Command
-`<command> --help` prints out the "help" page about a particular command.
+For Linux/Mac users, the `man` command will give much more detailed information (a short **man**ual) about a command.  To use it type `man <command>` where `<command>` is any command line command.
 
-For Linux/Mac users, the `man` command will give much more detailed information about a command.  To use it type `man <command>` where `<command>` is any command line command.
+`<command> --help` may also print out the "help" page about a particular command.
 
 ## File Paths
 ##### Relative File Paths
-A relative file path specifies a path to a file taking into account what your current working directory is.  For example, if you were to give someone directions from their house to your house, you would give the directions with context of leaving their house (the relative path from where they are to where you are).
+A relative file path specifies the path to a file taking into account what your current working directory is.  For example, if you were to give someone directions to your house, you would give the directions with context of leaving their house (the relative path from where they are to where you are).
 ##### Absolute File Paths
-An absolute file path specifies a path to a file assuming there is no knowledge of what your current working directory is.  This means the file path starts at the root directory.  For example, if you were to give someone directions from their house to your house, you would start by telling them to be on earth, then go to your continent, then go to your country, then go to your region, etc.
+An absolute file path specifies the path to a file assuming there is no knowledge of what your current working directory is.  This means the file path starts at the root directory.  For example, if you were to give someone directions from their house to your house, you would start by telling them to be on earth, then go to your continent, then go to your country, then go to your region, etc.
 
 ## Basic Commands
 ##### `pwd`
@@ -61,10 +61,10 @@ An absolute file path specifies a path to a file assuming there is no knowledge 
 * Using `cd` and `ls` to navigate and look at your files at the command line is like clicking folders in Finder/Document Explorer.
 
 ##### `mkdir `
-* `mkdir <name>` **m**a**k**es/creates a new **dir**ectory/folder with the title <name>
+* `mkdir <name>` **m**a**k**es/creates a new **dir**ectory/folder named `<name>`.
 
 ##### `touch`
-* `touch <file>` creates an empty file with the name <file>.
+* `touch <file>` creates an empty file with the name `<file>`.
 * This is useful for creating empty files to be edited at a later time.
 
 ##### `rm -i`
@@ -74,17 +74,17 @@ An absolute file path specifies a path to a file assuming there is no knowledge 
 * **Note**: The `-r` option means **r**ecursive.  It's often needed for operations on a folder.
 
 ##### `mv`
-* `mv <current file location> <new file location>` will **m**o**v**e a file from its <current file location> to a <new file location>.
+* `mv <current file location> <new file location>` will **m**o**v**e a file from its `<current file location>` to a `<new file location>`.
 * This is the same as dragging and dropping a file from one place to another.
-* `mv <current file name> <new file name>` renames a file.  You "move" it from one location, <current file name>, to another location, <new file name>, though it doesn't actually move locations.
+* `mv <current file name> <new file name>` renames a file.  You "move" it from one location, `<current file name>`, to another location, `<new file name>`, though it doesn't actually move locations.
 
 ##### `cp`
-* `cp <current file location> <new file location>` will **c**o**p**y a file from it's <current file location> to a <new file location>, leaving the original file untouched.  
+* `cp <current file location> <new file location>` will **c**o**p**y a file from its `<current file location>` to a `<new file location>`, leaving the original file untouched.  
 * This is different from `mv` in that you are creating a new file and putting it somewhere rather than just moving the current file.
 
 ##### `zip`/`unzip`
-* `zip <zipped file> <original file>` will zip/compress the <original file> into a <zipped file>.
-* `zip -r <zipped file> <original folder>` will zip/compress the <original folder> and all of its files into a <zipped file>.
+* `zip <zipped file> <original file>` will zip/compress the `<original file>` into a `<zipped file>`.
+* `zip -r <zipped file> <original folder>` will zip/compress the `<original folder>` and all of its files into a `<zipped file>`.
 * **Note**:  A list of files and folders, separated by spaces, can be zipped into one zipped file with `zip -r <zipped file> <original file 1> <original folder 2> ...`.
 * `unzip <file>` will unzip/uncompress a file.
 
@@ -100,17 +100,19 @@ An absolute file path specifies a path to a file assuming there is no knowledge 
 * Create a new directory called `my_diary`.  
 * Move the two previously created files into this directory.
 * Create a new directory called `my_blog`.  Copy the file `data_science_is_cool.txt` from `my_diary` to `my_blog`.
+* Examine the files in `my_blog` to confirm that `data_science_is_cool.txt` is there.
 * Zip the folders `my_diary` and `my_blog` into a new file called `writings.zip`.
 * Delete the folders `my_diary` and `my_blog`.
 * Unzip `writings.zip` to get your folders back.
+* Confirm that the two folders `my_diary` and `my_blog` have been recreated.
 * Once you finish, you can delete everything:  `writings.zip`, `my_diary`, and `my_blog`.
 
 ## Advanced Commands
 
 ##### `find`
-* `find -name <name>` will search the current working directory (`pwd`) and **find** files and folders of the given <name>.
-* `find <path to search> -name <name>` will search the specified path for files and folders of the given <name>.
-* <name> can be the full name, but it can also be a partial match using wild card characters.
+* `find <path to search> -name <name>` will search the specified path and **find** files and folders of the given `<name>`.
+* If you want to search your current working diretory (`pwd`), you can use the `.` (a period) instead of a specifc path.  `.` means your current working directory.
+* `<name>` can be the full name, but it can also be a partial match using wild card characters.
     * \* specifies any number of any characters
         * `find -name '*.csv'` will find all of the CSV files in your current directory.
     * ? specifies one character
@@ -118,15 +120,15 @@ An absolute file path specifies a path to a file assuming there is no knowledge 
 * This is a very useful and powerful command.
 
 ##### `head`
-* `head <file>` prints the **head** (first ten lines) of the <file>
+* `head <file>` prints the **head** (first ten lines) of the `<file>`.
 * This is useful for looking at the beginning of a large file before performing a command on it.
 
 ##### `tail`
-* `tail <file>` prints the **tail** (last ten lines) of the <file>
+* `tail <file>` prints the **tail** (last ten lines) of the `<file>`.
 * This is useful for looking at the end of a large file before performing a command on it.
 
 ##### `cat`
-* `cat <file>` prints the entire <file>
+* `cat <file>` prints the entire `<file>`.
 * This is useful sending the contents of the file into another command (more on that below).
 
 ##### `less`
@@ -137,7 +139,7 @@ An absolute file path specifies a path to a file assuming there is no knowledge 
 * `grep <pattern>` **g**lobally searches for a **r**egular **e**xpression and **p**rints the matches to the console.
 * Works for partial matches
 * Returns the line that matched.
-* `grep <pattern> <file>` searches a <file> for the <patter> and prints the matching lines to the console.
+* `grep <pattern> <file>` searches a `<file>` for the `<pattern>` and prints the matching lines to the console.
 * If no file is given, `grep` will operate on the output from the previous command.
 
 ##### `wc`
@@ -146,18 +148,14 @@ An absolute file path specifies a path to a file assuming there is no knowledge 
 * If no file is given, `wc` will opearte on the output from the previous command.
 * Combining `wc` and `grep` is a useful way of determining how many occurences of a specific word there are in a file.
 
-##### `wget`
-* `wget <url>` will go to the **w**eb and **get** the resources at the specified <url>.
-* **Note**:  This doesn't work in **Git Bash**.
-
 ##### `|`
 * Let’s you **pipe** commands into each other
-* `<command 1> | <command 2> | <command 3>` pipes these three commands into each other.  `<command 1>` completes and the results of it are piped into `<command 2>`.  `<command 2>` completes and the results of it are pipe into `<command 3>`.  `<command 3>` completes and the results of it are printed to the console.
+* `<command 1> | <command 2> | <command 3>` pipes these three commands into each other.  `<command 1>` completes and the results of it are piped into `<command 2>`.  `<command 2>` completes and the results of it are piped into `<command 3>`.  `<command 3>` completes and the results of it are printed to the console.
 * This concept is a very powerful one on the command line.  This allows you to do complex things all from the command line.
 * Many commands will use the output from a previous command as the input for the next command.
 
 ##### `>`
-* `<command> > <file>` takes the output of the <command> and saves it in a <file>.
+* `<command> > <file>` takes the output of the `<command>` and saves it in a `<file>`.
 * This is useful for saving the results of a command to a file.
 
 ## Exercise Two
@@ -165,13 +163,14 @@ An absolute file path specifies a path to a file assuming there is no knowledge 
 * Find all of the CSV files in the `data` directory.  How many are there?
 * How many Markdown files are there in the DAT5 directory?
 * How many lines are in the `airline_safety.csv` data?
-* Using `airline_safety.csv`, return a list of the airlines that have a '\*' in the name. Write these airlines to a file called `starred_airlines.csv`. **Note**: Make sure to put the \* in quotes.
+* Using `airline_safety.csv`, return a list of the airlines that have a '\*' in the name. How many airlines are there in this list?  Write these airlines to a file called `starred_airlines.csv`. **Note**: Make sure to put the \* in quotes.
+* Open the file `starred_airlines.csv` to confirm it was correctly created.  Then, remove the file.
 * Using `chipotle_orders.tsv`, how many 'Steak Burrito's contain 'Black Beans'?  Are there more 'Steak Burrito's with 'Pinto Beans'?
 
 ## Command Line Utilities
 
 ##### `sudo`
-* `sudo <command>` runs the <command> with admin access.
+* `sudo <command>` runs the `<command>` with admin access.
 * Stands for **S**per **u**ser **d**o
 * Use with caution as this gives your computer unrestricted access when performing the command that follows.  This is sometimes necessary to install software or access certain, restricted directories.
 
@@ -190,6 +189,7 @@ An absolute file path specifies a path to a file assuming there is no knowledge 
 * I would not recommend doing a lot of work in VIM, though it is useful to be aware of.
 
 ## Homework
+* For the following homework, please turn in the code used to generate the answer as well as the answer. 
 * Using the command line, look at the file `SMSSpamCollection.txt` (Source: https://archive.ics.uci.edu/ml/machine-learning-databases/00228/smsspamcollection.zip) in the `data` directory.  It contains text messages that are labeled as spam or ham (the opposite of spam).  Answer the following questions:
     * How many text messages are there?
     * What is the average number of words per text?  What is the average number of characters per text?
