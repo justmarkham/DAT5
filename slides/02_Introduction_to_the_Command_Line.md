@@ -171,7 +171,7 @@ An absolute file path specifies the path to a file assuming there is no knowledg
 
 ##### `sudo`
 * `sudo <command>` runs the `<command>` with admin access.
-* Stands for **S**per **u**ser **d**o
+* Stands for **S**uper **u**ser **d**o
 * Use with caution as this gives your computer unrestricted access when performing the command that follows.  This is sometimes necessary to install software or access certain, restricted directories.
 
 ##### `nano`
