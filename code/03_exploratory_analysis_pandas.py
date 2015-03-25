@@ -34,8 +34,8 @@ drinks = pd.read_csv('https://raw.githubusercontent.com/justmarkham/DAT5/master/
 Key Concept: Dot notation
 In Python, you can think of an object as an entity that can have both attributes
 and methods.  A dot following an object indicates that you are about to access
-somehing within the object, an attribute or a method.  Attributes contain
-information abut the object.  They are usually a single "word" following the
+something within the object, an attribute or a method.  Attributes contain
+information about the object.  They are usually a single "word" following the
 dot.  A method is somethng the object can do.  They are usually a "word" with
 parentheses following the dot.
 '''
@@ -146,7 +146,7 @@ drinks[drinks.beer_servings==drinks.beer_servings.max()].country
 # Use dot notation to string together commands
 # How many countries in each continent have beer_servings greater than 182?
 # i.e. a beer every two days
-drinks[drinks.beer_servings > 182].continent.value_counts().sort_index()
+drinks[drinks.beer_servings > 182].continent.value_counts()
 
 # add a new column as a function of existing columns
 # note: can't (usually) assign to an attribute (e.g., 'drinks.total_servings')
@@ -308,32 +308,53 @@ drinks[['beer_servings', 'spirit_servings', 'wine_servings']][0:3]
 ##########################################
 #############    Homework    #############
 ##########################################
+'''
+Use the automotive mpg data (https://raw.githubusercontent.com/justmarkham/DAT5/master/data/auto_mpg.csv) 
+to complete the following parts.  Please turn in your code for each part.  
+Before each code chunk, give a brief description (one line) of what the code is
+doing (e.g. "Loads the data" or "Creates scatter plot of mpg and weight").  If 
+the code output produces a plot or answers a question, give a brief
+interpretation of the output (e.g. "This plot shows X,Y,Z" or "The mean for 
+group A is higher than the mean for group B which means X,Y,Z").
+'''
 
-# Prompt:  You've been asked to explore some data about about gas mileage for 
-# cars and get an idea of which variables affect gas mileage.
+'''
+Part 1
+Load the data (https://raw.githubusercontent.com/justmarkham/DAT5/master/data/auto_mpg.txt) 
+into a DataFrame.  Try looking at the "head" of the file in the command line
+to see how the file is delimited and how to load it.
+Note:  You do not need to turn in any command line code you may use.
+'''
 
-# 1. Load the data (https://raw.githubusercontent.com/justmarkham/DAT5/master/data/auto_mpg.csv) 
-# into a DataFrame.  Try looking at the "head" of the file in the command line
-# to see how the file is delimited and how to load it.
+'''
+Part 2
+Get familiar with the data.  Answer the following questions:
+- What is the shape of the data?  How many rows and columns are there?
+- What variables are available?
+- What are the ranges for the values in each numeric column?
+- What is the average value for each column?  Does that differ significantly
+  from the median?
+'''
 
-# 2. Get familiar with the data.  This could include exploring some of the 
-# following:
-# - What is the shape of the data?  
-# - What variables are available?
-# - For non numeric columns, what values are in the column?
-# - What are the ranges for the values in each column?
-# - What is the average value for each column?  Does that differ significantly
-#   from the median?
 
-# 3. Which 5 cars get the best gas mileage?  Which 5 cars with more than 4 
-# cylinders get the best gas mileage?
+'''
+Part 3
+Use the data to answer the following questions:
+- Which 5 cars get the best gas mileage?  
+- Which 5 cars with more than 4 cylinders get the best gas mileage?
+- Which 5 cars get the worst gas mileage?  
+- Which 5 cars with 4 or fewer cylinders get the worst gas mileage?
+'''
 
-# 4. Which 5 cars get the worst gas mileage?  Which 5 cars with 4 or fewer 
-# cylinders get the worst gas mileage?
+'''
+Part 4
+Use plots, groupby, aggregations, etc to explore the relationships 
+between mpg and the other variables.  Which variables seem to have the greatest
+effect on mpg?
+Some examples of things you might want to look at are:
+- What is the mean mpg for cars with each number of cylindres (i.e. 3 cylinders,
+  4 cylinders, 5 cylinders, etc)?
+- Did mpg rise or fall over the years contained in this dataset?
+- How does mpg change as weight increases or decreases?
+'''
 
-# 5. Use plots, groupby, aggregations, etc to explore the relationships 
-# between mpg and the other variables.  Some examples of things you might want 
-# to look at are:
-# - What is the mean mpg for cars with each number of cylindres (i.e. 3 cylinders,
-#   4 cylinders, 5 cylinders, etc)?
-# - Did mpg rise or fall over the years contained in this dataset?
