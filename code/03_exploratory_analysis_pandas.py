@@ -1,18 +1,16 @@
-# -*- coding: utf-8 -*-
 """
 CLASS: Pandas for Data Exploration, Analysis, and Visualization
 
 About the data:
 WHO alcohol consumption data:
-    article: http://fivethirtyeight.com/datalab/dear-mona-followup-where-do-people-drink-the-most-beer-wine-and-spirits/    
+    article: http://fivethirtyeight.com/datalab/dear-mona-followup-where-do-people-drink-the-most-beer-wine-and-spirits/
     original data: https://github.com/fivethirtyeight/data/tree/master/alcohol-consumption
     files: drinks.csv (with additional 'continent' column)
-
 """
 
 """
 First, we need to import Pandas into Python.  Pandas is a Python package that
-allows for easy manipulation of data frames.  You'll also need to import 
+allows for easy manipulation of DataFrames.  You'll also need to import 
 matplotlib for plotting.
 """
 
@@ -23,13 +21,13 @@ import numpy as np
 
 
 '''
-Reading Files, Summarizing, Selecting, Filtering, Sorting, Detecting Duplicates
+Reading Files, Summarizing, Selecting, Filtering, Sorting
 '''
-# Can read a file from from a local file on your computer or from a URL
+# Can read a file from a local file on your computer or from a URL
 drinks = pd.read_table('drinks.csv', sep=',')   # read_table is more general
 drinks = pd.read_csv('drinks.csv')  # read_csv is specific to CSV and implies sep=","
 # Can also read from URLs
-drinks = pd.read_csv(REPLACE)
+drinks = pd.read_csv('https://raw.githubusercontent.com/justmarkham/DAT5/master/data/drinks.csv')
 
 
 '''
@@ -39,14 +37,14 @@ and methods.  A dot following an object indicates that you are about to access
 somehing within the object, an attribute or a method.  Attributes contain
 information abut the object.  They are usually a single "word" following the
 dot.  A method is somethng the object can do.  They are usually a "word" with
-paentheses following the dot.
+parentheses following the dot.
 '''
 
 # examine the drinks data
 drinks                          # print the first 30 and last 30 rows
 type(drinks)                    # DataFrame
 drinks.head()                   # print the first 5 rows
-drinks.head(10)                 # printthe first 10 rows
+drinks.head(10)                 # print the first 10 rows
 drinks.tail()                   # print the last 5 rows
 drinks.describe()               # summarize all numeric columns
 drinks.describe(include='all')  # includes non numeric columns; new in pandas 0.15.0
@@ -71,11 +69,11 @@ drinks[cols]
 drinks.describe()                   # summarize all numeric columns
 drinks.beer_servings.describe()     # summarize only the 'beer_servings' Series
 drinks.beer_servings.mean()         # only calculate the mean
-drinks.beer_servings.max()          # only calcuate the max
+drinks.beer_servings.max()          # only calculate the max
 drinks.beer_servings.min()          # only calculate the min
 
 # Other aggregation functions
-drinks.beer_servings.sum()           
+drinks.beer_servings.sum()
 drinks.beer_servings.count()
 float(drinks.beer_servings.sum())/drinks.beer_servings.count()
 
@@ -85,14 +83,14 @@ drinks.continent.value_counts()
 # Simple logical filters
 # Print all columns, but only show rows where the country is in Europe
 # Let's look at each piece of this.
-drinks.continent                    # Returns out all of the continent values
+drinks.continent                    # Returns all of the continent values
 drinks.continent=='EU'              # Returns True/False list
 drinks[drinks.continent=='EU']      # Returns all rows where True
 
 # Other logical filters
 drinks[drinks.beer_servings > 158]
 drinks[drinks.beer_servings <= 10]
-type(drinks[drinks.beer_servings <= 10])    # Dataframe
+type(drinks[drinks.beer_servings <= 10])    # DataFrame
 drinks[drinks.beer_servings <= 10][['country','beer_servings']]
 
 # Calculate the average 'beer_servings' for all of Europe
@@ -100,9 +98,10 @@ drinks[drinks.continent=='EU'].beer_servings.mean()
 
 # More complex logical fitering
 # Only show European countries with 'wine_servings' greater than 300
+# Note: parentheses are required for each condition, and you can't use 'and' or 'or' keywords
 drinks[(drinks.continent=='EU') & (drinks.wine_servings > 300)]
 
-# Show European countries or countries 'wine_servings' greater than 300
+# Show European countries or countries with 'wine_servings' greater than 300
 drinks[(drinks.continent=='EU') | (drinks.wine_servings > 300)]
 
 # Show countries who have more than the mean beer_servings
@@ -112,7 +111,7 @@ drinks[drinks.beer_servings > drinks.beer_servings.mean()]
 ############    Exercise 1    ############
 ##########################################
 
-# Using the 'drinks' data, answer te following questions:
+# Using the 'drinks' data, answer the following questions:
 # 1. What is the maximum number of total litres of pure alcohol?
 
 
@@ -123,7 +122,7 @@ drinks[drinks.beer_servings > drinks.beer_servings.mean()]
 
 
 # 4. How many countries have more than 300 wine servings OR more than 300 
-# beer servings OR more than 300 spirit serving?
+# beer servings OR more than 300 spirit servings?
 
 
 # 5. For the countries in the previous question, what is the average total litres
@@ -185,13 +184,13 @@ drinks['lots_of_beer'] = np.where(drinks.beer_servings > 300, 1, 0)
 ############    Exercise 2    ############
 ##########################################
 
-# 1. What is the average number of total liters of pure alcohol for each 
+# 1. What is the average number of total litres of pure alcohol for each 
 # continent?
 
 
 
 # 2. For each continent, calculate the mean wine_servings for all countries who 
-# have a a spirit_servings greater than the overall spirit_servings mean.
+# have a spirit_servings greater than the overall spirit_servings mean.
 
 
 
@@ -290,9 +289,9 @@ Advanced Filtering (of rows) and Selecting (of columns)
 # loc: filter rows by LABEL, and select columns by LABEL
 drinks.loc[0]                        # row with label 0
 drinks.loc[0:3]                      # rows with labels 0 through 3
-drinks.loc[0:3, 'beer_servings':'wine_servings']  # rows 0-3, columns 'age' through 'occupation'
-drinks.loc[:, 'beer_servings':'wine_servings']    # all rows, columns 'age' through 'occupation'
-drinks.loc[[0,3], ['beer_servings','spirit_servings']]  # rows 1 and 3, columns 'age' and 'gender'
+drinks.loc[0:3, 'beer_servings':'wine_servings']  # rows 0-3, columns 'beer_servings' through 'wine_servings'
+drinks.loc[:, 'beer_servings':'wine_servings']    # all rows, columns 'beer_servings' through 'wine_servings'
+drinks.loc[[0,3], ['beer_servings','spirit_servings']]  # rows 1 and 4, columns 'beer_servings' and 'spirit_servings'
 
 # iloc: filter rows by POSITION, and select columns by POSITION
 drinks.iloc[0]                       # row with 0th position (first row)
@@ -314,7 +313,7 @@ drinks[['beer_servings', 'spirit_servings', 'wine_servings']][0:3]
 # cars and get an idea of which variables affect gas mileage.
 
 # 1. Load the data (https://raw.githubusercontent.com/justmarkham/DAT5/master/data/auto_mpg.csv) 
-# into a data frame.  Try looking at the "head" of the file in the command line
+# into a DataFrame.  Try looking at the "head" of the file in the command line
 # to see how the file is delimited and how to load it.
 
 # 2. Get familiar with the data.  This could include exploring some of the 
@@ -323,7 +322,7 @@ drinks[['beer_servings', 'spirit_servings', 'wine_servings']][0:3]
 # - What variables are available?
 # - For non numeric columns, what values are in the column?
 # - What are the ranges for the values in each column?
-# - What is the average value for each column?  Does that different significantly
+# - What is the average value for each column?  Does that differ significantly
 #   from the median?
 
 # 3. Which 5 cars get the best gas mileage?  Which 5 cars with more than 4 
