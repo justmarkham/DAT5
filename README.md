@@ -78,7 +78,7 @@ Monday | Wednesday
 * Python lesson with [airline safety data](https://github.com/fivethirtyeight/data/tree/master/airline-safety) ([code](code/01_reading_files.py))
 
 **Homework:**
-* Python exercises with [Chipotle order data](https://github.com/TheUpshot/chipotle) (listed at bottom of [code](code/01_reading_files.py) file)
+* Python exercises with [Chipotle order data](https://github.com/TheUpshot/chipotle) (listed at bottom of [code](code/01_reading_files.py) file) ([solution](code/01_chipotle_homework_solution.py))
 * Work through GA's excellent introductory [command line tutorial](http://generalassembly.github.io/prework/command-line/#/) and then take this brief [quiz](https://gahub.typeform.com/to/J6xirf).
 * Read through the [course project requirements](other/project.md) and start thinking about your own project!
 
@@ -109,7 +109,9 @@ Monday | Wednesday
 * The [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) covers standard Markdown and a bit of "[GitHub Flavored Markdown](https://help.github.com/articles/github-flavored-markdown/)."
 
 
-### Class 5: Pandas
+-----
+
+### Class 3: Pandas
 * Pandas for data exploration, analysis, and visualization ([code](code/03_exploratory_analysis_pandas.py))
     * [Split-Apply-Combine](http://i.imgur.com/yjNkiwL.png) pattern
     * Simple examples of [joins in Pandas](http://www.gregreda.com/2013/10/26/working-with-pandas-dataframes/#joining)
