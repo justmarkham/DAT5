@@ -313,8 +313,9 @@ drinks[['beer_servings', 'spirit_servings', 'wine_servings']][0:3]
 # Prompt:  You've been asked to explore some data about about gas mileage for 
 # cars and get an idea of which variables affect gas mileage.
 
-# 1. Load the data () into a data frame.  Try looking at the "head" of the file
-# in the command line to see how the file is delimited and how to load it.
+# 1. Load the data (https://raw.githubusercontent.com/justmarkham/DAT5/master/data/auto_mpg.csv) 
+# into a data frame.  Try looking at the "head" of the file in the command line
+# to see how the file is delimited and how to load it.
 
 # 2. Get familiar with the data.  This could include exploring some of the 
 # following:
