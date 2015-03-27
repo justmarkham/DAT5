@@ -128,3 +128,36 @@ Monday | Wednesday
 * For more on Pandas plotting, read the [visualization page](http://pandas.pydata.org/pandas-docs/stable/visualization.html) from the official Pandas documentation.
 * To learn how to customize your plots further, browse through this [notebook on matplotlib](http://nbviewer.ipython.org/github/fonnesbeck/Bios366/blob/master/notebooks/Section2_4-Matplotlib.ipynb).
 * To explore different types of visualizations and when to use them, [Choosing a Good Chart](http://extremepresentation.typepad.com/files/choosing-a-good-chart-09.pdf) is a handy one-page reference, and Columbia's Data Mining class has an excellent [slide deck](http://www2.research.att.com/~volinsky/DataMining/Columbia2011/Slides/Topic2-EDAViz.ppt).
+
+
+-----
+
+### Class 5: Data Science Workflow, Machine Learning, KNN
+* Iris dataset
+    * [What does an iris look like?](http://sebastianraschka.com/Images/2014_python_lda/iris_petal_sepal.png)
+    * [Data](http://archive.ics.uci.edu/ml/datasets/Iris) hosted by the UCI Machine Learning Repository
+    * "Human learning" exercise
+* Introduction to data science ([slides](slides/05_intro_to_data_science.pdf))
+    * [Quora: What is data science?](https://www.quora.com/What-is-data-science/answer/Michael-Hochster)
+    * [Data science Venn diagram](http://drewconway.com/zia/2013/3/26/the-data-science-venn-diagram)
+    * [Quora: What is the workflow of a data scientist?](http://www.quora.com/What-is-the-work-flow-or-process-of-a-data-scientist/answer/Ryan-Fox-Squire)
+    * Example student project: [MetroMetric](https://github.com/justmarkham/DAT-project-examples/blob/master/pdf/bus_presentation.pdf)
+* Machine learning and KNN ([slides](slides/05_machine_learning_knn.pdf))
+    * [Reddit AMA with Yann LeCun](http://www.reddit.com/r/MachineLearning/comments/25lnbt/ama_yann_lecun)
+    * [Characteristics of your zip code](http://www.esri.com/landing-pages/tapestry/)
+* Introduction to scikit-learn ([code](code/05_sklearn_knn.py))
+    * Documentation: [user guide](http://scikit-learn.org/stable/modules/neighbors.html), [module reference](http://scikit-learn.org/stable/modules/classes.html#module-sklearn.neighbors), [class documentation](http://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html)
+
+**Homework:**
+* [Reading assignment on the bias-variance tradeoff](homework/05_bias_variance.md)
+* Talk to an instructor about your [project](other/project.md) by Monday!
+
+**Optional:**
+* For a useful look at the different types of data scientists, read [Analyzing the Analyzers](http://cdn.oreillystatic.com/oreilly/radarreport/0636920029014/Analyzing_the_Analyzers.pdf) (32 pages).
+* For some thoughts on what it's like to be a data scientist, read these short posts from [Win-Vector](http://www.win-vector.com/blog/2012/09/on-being-a-data-scientist/) and [Datascope Analytics](http://datascopeanalytics.com/what-we-think/2014/07/31/six-qualities-of-a-great-data-scientist).
+* For a more in-depth introduction to data science, browse through these [PowerPoint slides](http://www2.research.att.com/~volinsky/DataMining/Columbia2011/Slides/Topic1-DMIntro.ppt) from Columbia's Data Mining class.
+* For a more in-depth introduction to machine learning, read section 2.1 (14 pages) of Hastie and Tibshirani's excellent book, [An Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/). (It's a free PDF download!)
+
+**Resources:**
+* Quora has a [data science topic FAQ](https://www.quora.com/What-is-the-Data-Science-topic-FAQ) with lots of interesting Q&A.
+* Keep up with local data-related events through the Data Community DC [event calendar](http://www.datacommunitydc.org/calendar) or [weekly newsletter](http://www.datacommunitydc.org/thenewsletter/).
