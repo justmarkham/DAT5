@@ -113,21 +113,21 @@ drinks[drinks.beer_servings > drinks.beer_servings.mean()]
 
 # Using the 'drinks' data, answer the following questions:
 # 1. What is the maximum number of total litres of pure alcohol?
-
+drinks.total_litres_of_pure_alcohol.max()
 
 # 2. Which country has the maximum number of total litres of pure alcohol?
-
+drinks[drinks.total_litres_of_pure_alcohol == drinks.total_litres_of_pure_alcohol.max()]['country']
 
 # 3. Does Haiti or Belarus consume more servings of spirits?
-
+drinks.spirit_servings[drinks.country=='Haiti'] > drinks.spirit_servings[drinks.country=='Belarus']
 
 # 4. How many countries have more than 300 wine servings OR more than 300 
 # beer servings OR more than 300 spirit servings?
-
+drinks[(drinks.wine_servings > 300) | (drinks.beer_servings > 300) | (drinks.spirit_servings > 300)].country.count()
 
 # 5. For the countries in the previous question, what is the average total litres
 # of pure alcohol? 
-
+drinks[(drinks.wine_servings > 300) | (drinks.beer_servings > 300) | (drinks.spirit_servings > 300)].mean()
 
 
 # sorting
@@ -186,18 +186,18 @@ drinks['lots_of_beer'] = np.where(drinks.beer_servings > 300, 1, 0)
 
 # 1. What is the average number of total litres of pure alcohol for each 
 # continent?
-
+drinks.groupby('continent').total_litres_of_pure_alcohol.mean()
 
 
 # 2. For each continent, calculate the mean wine_servings for all countries who 
 # have a spirit_servings greater than the overall spirit_servings mean.
-
+drinks[drinks.spirit_servings > drinks.spirit_servings.mean()].groupby('continent').wine_servings.mean()
 
 
 # 3. Per continent, for all of the countries that drink more beer servings than 
 # the average number of beer servings, what is the average number of wine 
 # servings?
-
+drinks[drinks.beer_servings > drinks.beer_servings.mean()].groupby('continent').wine_servings.mean()
 
 
 '''
@@ -348,13 +348,16 @@ Use the data to answer the following questions:
 
 '''
 Part 4
-Use plots, groupby, aggregations, etc to explore the relationships 
+Use groupby and aggregations to explore the relationships 
 between mpg and the other variables.  Which variables seem to have the greatest
 effect on mpg?
 Some examples of things you might want to look at are:
-- What is the mean mpg for cars with each number of cylindres (i.e. 3 cylinders,
+- What is the mean mpg for cars for each number of cylindres (i.e. 3 cylinders,
   4 cylinders, 5 cylinders, etc)?
 - Did mpg rise or fall over the years contained in this dataset?
-- How does mpg change as weight increases or decreases?
+- What is the mpg for the group of lighter cars vs the group of heaver cars?
+Note: Be creative in the ways in which you divide up the data.  You are trying
+to create segments of the data using logical filters and comparing the mpg
+for each segment of the data.
 '''
 
