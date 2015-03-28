@@ -150,11 +150,12 @@ Monday | Wednesday
 
 **Homework:**
 * [Reading assignment on the bias-variance tradeoff](homework/05_bias_variance.md)
-* Talk to an instructor about your [project](other/project.md) by Monday!
+* A write-up about your [project question and dataset](other/project.md) is due on Monday!
 
 **Optional:**
 * For a useful look at the different types of data scientists, read [Analyzing the Analyzers](http://cdn.oreillystatic.com/oreilly/radarreport/0636920029014/Analyzing_the_Analyzers.pdf) (32 pages).
 * For some thoughts on what it's like to be a data scientist, read these short posts from [Win-Vector](http://www.win-vector.com/blog/2012/09/on-being-a-data-scientist/) and [Datascope Analytics](http://datascopeanalytics.com/what-we-think/2014/07/31/six-qualities-of-a-great-data-scientist).
+* For a fun (yet enlightening) look at the data science workflow, read [What I do when I get a new data set as told through tweets](http://simplystatistics.org/2014/06/13/what-i-do-when-i-get-a-new-data-set-as-told-through-tweets/).
 * For a more in-depth introduction to data science, browse through these [PowerPoint slides](http://www2.research.att.com/~volinsky/DataMining/Columbia2011/Slides/Topic1-DMIntro.ppt) from Columbia's Data Mining class.
 * For a more in-depth introduction to machine learning, read section 2.1 (14 pages) of Hastie and Tibshirani's excellent book, [An Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/). (It's a free PDF download!)
 
