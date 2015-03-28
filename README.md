@@ -161,7 +161,7 @@ Monday | Wednesday
 
 **Homework:**
 * [Reading assignment on the bias-variance tradeoff](homework/05_bias_variance.md)
-* A write-up about your [project question and dataset](other/project.md) is due on Monday!
+* A write-up about your [project question and dataset](other/project.md) is due on Monday! ([example one](https://github.com/justmarkham/DAT4-students/blob/master/jason/jk_project_idea.md), [example two](https://github.com/justmarkham/DAT4-students/blob/master/alexlee/project_question.md))
 
 **Optional:**
 * For a useful look at the different types of data scientists, read [Analyzing the Analyzers](http://cdn.oreillystatic.com/oreilly/radarreport/0636920029014/Analyzing_the_Analyzers.pdf) (32 pages).
