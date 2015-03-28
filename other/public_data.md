@@ -17,6 +17,7 @@
      * [Inter-university Consortium for Political and Social Research](http://www.icpsr.umich.edu/)
      * [Pittsburgh Science of Learning Center's DataShop](http://www.learnlab.org/technologies/datashop/)
      * [Academic Torrents](http://academictorrents.com/): distributed network for sharing large research datasets
+     * [Dataverse Project](http://dataverse.org/): searchable archive of research data
 * Datasets hosted by private companies:
      * [Quandl](https://www.quandl.com/): over 10 million financial, economic, and social datasets
      * [Amazon Web Services Public Data Sets](http://aws.amazon.com/datasets/)
@@ -37,6 +38,7 @@
      * [FiveThirtyEight](https://github.com/fivethirtyeight/data): data and code related to their articles
      * [Donors Choose](http://data.donorschoose.org/open-data/overview/): data related to their projects
      * [200,000+ Jeopardy questions](http://www.reddit.com/r/datasets/comments/1uyd0t/200000_jeopardy_questions_in_a_json_file/)
+     * [CrowdFlower](http://www.crowdflower.com/data-for-everyone): interesting datasets created or enhanced by their contributors
 * Other resources:
      * [Datasets subreddit](http://www.reddit.com/r/datasets/): ask for help finding a specific data set, or post your own
      * [Center for Data Innovation](http://www.datainnovation.org/category/publications/data-set-blog/): blog posts about interesting, recently-released data sets.
