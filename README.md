@@ -129,6 +129,12 @@ Monday | Wednesday
 -----
 
 ### Class 4: Visualization and APIs
+* Visualization ([slides](slides/04_visualization.pdf) and [code](code/04_visualization.py))
+* APIs ([slides](slides/04_apis.pdf) and [code](code/04_apis.py))
+
+**Homework:**
+* Visualization practice with [Automobile MPG Data](https://archive.ics.uci.edu/ml/datasets/Auto+MPG) (listed at the bottom of [the API code](code/04_apis.py))
+* **Note**:  This homework isn't due until Monday.
 
 **Optional:**
 * Watch [Look at Your Data](https://www.youtube.com/watch?v=coNDCIMH8bk) (18 minutes) for an excellent example of why visualization is useful for understanding your data.
