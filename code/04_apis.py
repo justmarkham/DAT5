@@ -53,7 +53,7 @@ sentences = ['I love pizza!', 'I hate pizza!', 'I feel nothing about pizza!']
 
 # Loop through the sentences
 for sentence in sentences:
-   	sentiment = get_sentiment(sentence)
+    sentiment = get_sentiment(sentence)
     print sentence, sentiment # Print the results
    
 
