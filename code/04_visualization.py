@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """
 CLASS:  Visualization
 """
@@ -6,7 +5,6 @@ CLASS:  Visualization
 # imports
 import pandas as pd
 import matplotlib.pyplot as plt
-import numpy as np
 
 # import the data available at https://raw.githubusercontent.com/justmarkham/DAT5/master/data/drinks.csv
 drinks = 
@@ -91,3 +89,38 @@ plt.show()
 # 3. Generate one plot that shows the distribution of spirit servings for each 
 # continent.
 
+
+
+##########################################
+#############    Homework    #############
+##########################################
+'''
+Use the automotive mpg data (https://raw.githubusercontent.com/justmarkham/DAT5/master/data/auto_mpg.txt) 
+to complete the following parts.  Please turn in your code for each part.  
+Before each code chunk, give a brief description (one line) of what the code is
+doing (e.g. "Loads the data" or "Creates scatter plot of mpg and weight").  If 
+the code output produces a plot or answers a question, give a brief
+interpretation of the output (e.g. "This plot shows X,Y,Z" or "The mean for 
+group A is higher than the mean for group B which means X,Y,Z").
+'''
+
+'''
+Part 1
+Produce a plot that compares the mean mpg for the different numbers of cylinders.
+'''
+
+'''
+Part 2
+Use a scatter matrix to explore relationships between different numeric variables.
+'''
+
+'''
+Part 3
+Use a plot to answer the following questions:
+-Do heavier or lighter cars get better mpg?
+-How are horsepower and displacement related?
+-What does the distribution of acceleration look like?
+-How is mpg spread for cars with different numbers of cylinders?
+-Do cars made before or after 1975 get better average mpg? (Hint: You need to 
+create a new column that encodes whether a year is before or after 1975.)
+'''
