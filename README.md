@@ -133,7 +133,7 @@ Monday | Wednesday
 * APIs ([slides](slides/04_apis.pdf) and [code](code/04_apis.py))
 
 **Homework:**
-* Visualization practice with [Automobile MPG Data](https://archive.ics.uci.edu/ml/datasets/Auto+MPG) (listed at the bottom of [the API code](code/04_apis.py))
+* Visualization practice with [Automobile MPG Data](https://archive.ics.uci.edu/ml/datasets/Auto+MPG) (listed at the bottom of [the visualization code](code/04_visualization.py))
 * **Note**:  This homework isn't due until Monday.
 
 **Optional:**
@@ -166,6 +166,7 @@ Monday | Wednesday
     * Documentation: [user guide](http://scikit-learn.org/stable/modules/neighbors.html), [module reference](http://scikit-learn.org/stable/modules/classes.html#module-sklearn.neighbors), [class documentation](http://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html)
 
 **Homework:**
+* Complete your visualization homework assigned in class 4
 * [Reading assignment on the bias-variance tradeoff](homework/05_bias_variance.md)
 * A write-up about your [project question and dataset](other/project.md) is due on Monday! ([example one](https://github.com/justmarkham/DAT4-students/blob/master/jason/jk_project_idea.md), [example two](https://github.com/justmarkham/DAT4-students/blob/master/alexlee/project_question.md))
 
