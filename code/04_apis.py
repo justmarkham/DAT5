@@ -43,6 +43,21 @@ r_json['score'] # 2.0
 # Turn the above code into a function
 # The function should take in one argument, some text, and return a number,
 # the sentiment. Call your function "get_sentiment".
+def get_sentiment(text):
+    url = 'http://www.datasciencetoolkit.org/text2sentiment/'
+    
+    #specify header    
+    header = {'content-type': 'application/json'}
+    
+    # Next we specify the body (the information we want the API to work on)
+    body = text
+    
+    # Now we make the request
+    response = requests.post(url, data=body, headers=header)
+    # Notice that this is a POST request
+    r_json = json.loads(response.text)
+    sentiment = r_json['score'] # 2.0
+    return sentiment
 
 
 

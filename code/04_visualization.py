@@ -7,7 +7,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # import the data available at https://raw.githubusercontent.com/justmarkham/DAT5/master/data/drinks.csv
-drinks = 
+drinks = pd.read_csv('https://raw.githubusercontent.com/justmarkham/DAT5/master/data/drinks.csv')
 
 '''
 Visualization
@@ -80,15 +80,18 @@ plt.show()
 
 # 1. Generate a plot showing the average number of total litres of pure alcohol
 # by continent.
-
+drinks.groupby('continent').total_litres_of_pure_alcohol.mean().plot(kind='bar')
+plt.show()
 
 # 2. Illustrate the relationship between spirit servings and total litres of 
 # pure alcohol.  What kind of relationship is there?
-
+drinks.plot(kind='scatter', x='spirit_servings', y='total_litres_of_pure_alcohol', alpha=0.4)
+plt.show()
 
 # 3. Generate one plot that shows the distribution of spirit servings for each 
 # continent.
-
+drinks.spirit_servings.hist(by=drinks.continent, sharex=True, sharey=True)
+plt.show()
 
 
 ##########################################
