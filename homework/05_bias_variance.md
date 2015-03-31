@@ -6,9 +6,12 @@ Read this excellent article, [Understanding the Bias-Variance Tradeoff](http://s
 
 Here are some questions to think about while you read:
 * In the Party Registration example, what are the features? What is the response? Is this a regression or classification problem?
-* In the interactive visualization, try using different values for K across different sets of training data. What value of K do you think is "best"? How do you define "best"?
-* In the visualization, what do the lighter colors versus the darker colors mean? How is the darkness calculated?
-* How does the choice of K affect model bias? How about variance?
-* As you experiment with K and generate new training data, how can you "see" high versus low variance? How can you "see" high versus low bias?
+* Conceptually, how is KNN being applied to this problem to make a prediction?
+* How do the four visualizations in section 3 relate to one another? Change the value of K using the slider, and make sure you understand what changed in the visualizations (and why it changed).
+* In figures 4 and 5, what do the lighter colors versus the darker colors mean? How is the darkness calculated?
+* What does the black line in figure 5 represent? What predictions would an ideal machine learning model make, with respect to this line?
+* Choose a very small value of K, and click the button "Generate New Training Data" a number of times. Do you "see" low variance or high variance? Do you "see" low bias or high bias?
+* Repeat this with a very large value of K. Do you "see" low variance or high variance? Do you "see" low bias or high bias?
+* Try using other values of K. What value of K do you think is "best"? How do you define "best"?
 * Why should we care about variance at all? Shouldn't we just minimize bias and ignore variance?
-* Does a high value for K cause over-fitting or under-fitting?
+* Does a high value for K cause "overfitting" or "underfitting"?
