@@ -2,10 +2,8 @@
 CLASS: Introduction to scikit-learn with iris data
 '''
 
-import pandas as pd
-import numpy as np
-
 # read in iris data
+import pandas as pd
 col_names = ['sepal_length', 'sepal_width', 'petal_length', 'petal_width', 'species']
 iris = pd.read_csv('http://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data',
                    names=col_names)
@@ -38,18 +36,5 @@ knn.predict_proba(X_new)        # predicted probabilities
 knn.kneighbors([3, 5, 4, 2])    # distances to nearest neighbors (and identities)
 
 # calculate Euclidian distance manually for nearest neighbor
+import numpy as np
 np.sqrt(((X[106] - [3, 5, 4, 2])**2).sum())
-
-# compute the accuracy for K=5
-knn = KNeighborsClassifier(n_neighbors=5)
-knn.fit(X, y)
-y_preds = knn.predict(X)
-np.mean(y == y_preds)
-
-# built-in method to calculate accuracy
-knn.score(X, y)
-
-# compute the accuracy for K=1
-knn = KNeighborsClassifier(n_neighbors=1)
-knn.fit(X, y)
-knn.score(X, y)
