@@ -95,7 +95,7 @@ Monday | Wednesday
 * Git and GitHub ([slides](slides/02_git_github.pdf))
 
 **Homework:**
-* Command line exercises with [SMS Spam Data](https://archive.ics.uci.edu/ml/datasets/SMS+Spam+Collection) (listed at the bottom of [Introduction to the Command Line](slides/02_Introduction_to_the_Command_Line.md))
+* Command line exercises with [SMS Spam Data](https://archive.ics.uci.edu/ml/datasets/SMS+Spam+Collection) (listed at the bottom of [Introduction to the Command Line](slides/02_Introduction_to_the_Command_Line.md)) ([solution](homework/02_command_line_hw_soln.md))
 * **Note**: This homework is not due until Monday. You might want to create a GitHub repo for your homework instead of using Gist!
 
 **Optional:**
@@ -117,7 +117,7 @@ Monday | Wednesday
     * Simple examples of [joins in Pandas](http://www.gregreda.com/2013/10/26/working-with-pandas-dataframes/#joining)
 
 **Homework:**
-* Pandas practice with [Automobile MPG Data](https://archive.ics.uci.edu/ml/datasets/Auto+MPG) (listed at the bottom of [Exploratory Analysis in Pandas](code/03_exploratory_analysis_pandas.py))
+* Pandas practice with [Automobile MPG Data](https://archive.ics.uci.edu/ml/datasets/Auto+MPG) (listed at the bottom of [Exploratory Analysis in Pandas](code/03_exploratory_analysis_pandas.py)) ([solution](homework/03_pandas_hw_soln.py))
 * Talk to an instructor about your project
 * Don't forget about the Command line exercises (listed at the bottom of [Introduction to the Command Line](slides/02_Introduction_to_the_Command_Line.md))
 
