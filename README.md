@@ -153,7 +153,7 @@ Monday | Wednesday
 * Iris dataset
     * [What does an iris look like?](http://sebastianraschka.com/Images/2014_python_lda/iris_petal_sepal.png)
     * [Data](http://archive.ics.uci.edu/ml/datasets/Iris) hosted by the UCI Machine Learning Repository
-    * "Human learning" exercise
+    * "Human learning" exercise ([solution](code/05_iris_exercise.py))
 * Introduction to data science ([slides](slides/05_intro_to_data_science.pdf))
     * [Quora: What is data science?](https://www.quora.com/What-is-data-science/answer/Michael-Hochster)
     * [Data science Venn diagram](http://drewconway.com/zia/2013/3/26/the-data-science-venn-diagram)
