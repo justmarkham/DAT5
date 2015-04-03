@@ -9,7 +9,7 @@ Monday | Wednesday
  | 3/18: Introduction and Python
 3/23: Git and Command Line | 3/25: Exploratory Data Analysis
 **3/30:** Visualization and APIs | 4/1: Machine Learning and KNN
-**4/6:** Bias-Variance and Train/Test Split | 4/8: Kaggle Titanic (Part 1)
+**4/6:** Bias-Variance and Model Evaluation | 4/8: Kaggle Titanic (Part 1)
 4/13: Web Scraping, Tidy Data, Reproducibility | 4/15: Linear Regression
 4/20: Logistic Regression and Confusion Matrix | 4/22: ROC and Cross-Validation
 **4/27:** Project Presentation #1 | 4/29: Kaggle Titanic (Part 2)
@@ -181,3 +181,19 @@ Monday | Wednesday
 **Resources:**
 * Quora has a [data science topic FAQ](https://www.quora.com/What-is-the-Data-Science-topic-FAQ) with lots of interesting Q&A.
 * Keep up with local data-related events through the Data Community DC [event calendar](http://www.datacommunitydc.org/calendar) or [weekly newsletter](http://www.datacommunitydc.org/thenewsletter/).
+
+
+-----
+
+### Class 6: Bias-Variance Tradeoff and Model Evaluation
+* Brief introduction to the IPython Notebook
+* Exploring the bias-variance tradeoff ([notebook](http://nbviewer.ipython.org/github/justmarkham/DAT5/blob/master/notebooks/06_bias_variance.ipynb))
+* Discussion of the [assigned reading](homework/05_bias_variance.md) on the bias-variance tradeoff
+* Model evaluation procedures ([notebook](http://nbviewer.ipython.org/github/justmarkham/DAT5/blob/master/notebooks/06_model_evaluation_procedures.ipynb))
+* Glass identification [exercise](homework/06_glass_id_exercise.md)
+
+**Resources:**
+* If you would like to learn the IPython Notebook, the official [Notebook tutorials](http://nbviewer.ipython.org/github/ipython/ipython/blob/master/examples/Notebook/Index.ipynb) are useful.
+* To get started with Seaborn for visualization, the official website has a series of [tutorials](http://web.stanford.edu/~mwaskom/software/seaborn/tutorial.html) and an [example gallery](http://web.stanford.edu/~mwaskom/software/seaborn/examples/index.html).
+* Hastie and Tibshirani have an excellent [video](https://www.youtube.com/watch?v=_2ij6eaaSl0&t=2m34s) (12 minutes, starting at 2:34) that covers training error versus testing error, the bias-variance tradeoff, and train/test split (which they call the "validation set approach").
+* Caltech's Learning From Data course includes a fantastic [video](http://work.caltech.edu/library/081.html) (15 minutes) that may help you to visualize bias and variance.
