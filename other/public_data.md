@@ -39,6 +39,7 @@
      * [Donors Choose](http://data.donorschoose.org/open-data/overview/): data related to their projects
      * [200,000+ Jeopardy questions](http://www.reddit.com/r/datasets/comments/1uyd0t/200000_jeopardy_questions_in_a_json_file/)
      * [CrowdFlower](http://www.crowdflower.com/data-for-everyone): interesting datasets created or enhanced by their contributors
+     * [UFO reports](https://github.com/planetsig/ufo-reports): geolocated and time-standardized UFO reports for close to a century
 * Other resources:
      * [Datasets subreddit](http://www.reddit.com/r/datasets/): ask for help finding a specific data set, or post your own
      * [Center for Data Innovation](http://www.datainnovation.org/category/publications/data-set-blog/): blog posts about interesting, recently-released data sets.
