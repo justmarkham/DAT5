@@ -190,10 +190,22 @@ Monday | Wednesday
 * Exploring the bias-variance tradeoff ([notebook](http://nbviewer.ipython.org/github/justmarkham/DAT5/blob/master/notebooks/06_bias_variance.ipynb))
 * Discussion of the [assigned reading](homework/05_bias_variance.md) on the bias-variance tradeoff
 * Model evaluation procedures ([notebook](http://nbviewer.ipython.org/github/justmarkham/DAT5/blob/master/notebooks/06_model_evaluation_procedures.ipynb))
-* Glass identification [exercise](homework/06_glass_id_exercise.md)
 
 **Resources:**
 * If you would like to learn the IPython Notebook, the official [Notebook tutorials](http://nbviewer.ipython.org/github/ipython/ipython/blob/master/examples/Notebook/Index.ipynb) are useful.
 * To get started with Seaborn for visualization, the official website has a series of [tutorials](http://web.stanford.edu/~mwaskom/software/seaborn/tutorial.html) and an [example gallery](http://web.stanford.edu/~mwaskom/software/seaborn/examples/index.html).
 * Hastie and Tibshirani have an excellent [video](https://www.youtube.com/watch?v=_2ij6eaaSl0&t=2m34s) (12 minutes, starting at 2:34) that covers training error versus testing error, the bias-variance tradeoff, and train/test split (which they call the "validation set approach").
 * Caltech's Learning From Data course includes a fantastic [video](http://work.caltech.edu/library/081.html) (15 minutes) that may help you to visualize bias and variance.
+
+
+-----
+
+### Class 7: Kaggle Titanic (Part 1)
+* Guest instructor: [Josiah Davis](https://generalassemb.ly/instructors/josiah-davis/3315)
+* Participate in Kaggle's [Titanic competition](http://www.kaggle.com/c/titanic-gettingStarted)
+    * Work in pairs, but the goal is for every person to make at least one submission by the end of the class period!
+
+**Homework:**
+* Option 1 is to do the [Glass identification homework](homework/07_glass_identification.md). This is a good option if you are still getting comfortable with what we have learned so far, and prefer a very structured assignment.
+* Option 2 is to keep working on the Titanic competition, and see if you can make some additional progress! This is a good assignment if you are feeling comfortable with the material and want to learn a bit more on your own.
+* In either case, please submit your code as usual, and include lots of code comments!
