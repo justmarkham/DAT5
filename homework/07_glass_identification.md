@@ -1,6 +1,6 @@
-## Class 6 Exercise: Glass Identification
+## Class 7 Homework: Glass Identification
 
-Let's practice what we learned today using the [Glass Identification Data Set](http://archive.ics.uci.edu/ml/datasets/Glass+Identification).
+Let's practice what we have learned using the [Glass Identification dataset](http://archive.ics.uci.edu/ml/datasets/Glass+Identification).
 
 1. Read the data into a DataFrame.
 2. Briefly explore the data to make sure the DataFrame matches your expectations.
