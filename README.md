@@ -133,7 +133,7 @@ Monday | Wednesday
 * APIs ([slides](slides/04_apis.pdf) and [code](code/04_apis.py))
 
 **Homework:**
-* Visualization practice with [Automobile MPG Data](https://archive.ics.uci.edu/ml/datasets/Auto+MPG) (listed at the bottom of [the visualization code](code/04_visualization.py))
+* Visualization practice with [Automobile MPG Data](https://archive.ics.uci.edu/ml/datasets/Auto+MPG) (listed at the bottom of [the visualization code](code/04_visualization.py)) ([solution](homework/04_visualization_hw_soln.py))
 * **Note**:  This homework isn't due until Monday.
 
 **Optional:**
