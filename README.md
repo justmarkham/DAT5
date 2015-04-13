@@ -214,7 +214,8 @@ Monday | Wednesday
 -----
 
 ### Class 8: Web Scraping, Tidy Data, Reproducibility
-* Web scraping
+* Web scraping ([slides](slides/08_web_scraping.pdf) and [code](code/08_web_scraping.py))
+    * [HTML Tree](http://www.openbookproject.net/tutorials/getdown/css/images/lesson4/HTMLDOMTree.png)
 * Tidy data:
     * [Introduction](http://stat405.had.co.nz/lectures/18-tidy-data.pdf)
     * Example datasets: [Bob Ross](https://github.com/fivethirtyeight/data/blob/master/bob-ross/elements-by-episode.csv), [NFL ticket prices](https://github.com/fivethirtyeight/data/blob/master/nfl-ticket-prices/2014-average-ticket-price.csv), [airline safety](https://github.com/fivethirtyeight/data/blob/master/airline-safety/airline-safety.csv), [Jets ticket prices](https://github.com/fivethirtyeight/data/blob/master/nfl-ticket-prices/jets-buyer.csv), [Chipotle orders](https://github.com/TheUpshot/chipotle/blob/master/orders.tsv)
@@ -224,6 +225,7 @@ Monday | Wednesday
     * Examples: [Classic rock](https://github.com/fivethirtyeight/data/tree/master/classic-rock), [student project 1](https://github.com/jwknobloch/DAT4_final_project), [student project 2](https://github.com/justmarkham/DAT4-students/tree/master/Jonathan_Bryan/Project_Files)
 
 **Resources:**
+* This [web scraping tutorial from Stanford](http://web.stanford.edu/~zlotnick/TextAsData/Web_Scraping_with_Beautiful_Soup.html) provides an example of getting a list of items.
 * If you want to learn more about tidy data, [Hadley Wickham's paper](http://www.jstatsoft.org/v59/i10/paper) has a lot of nice examples.
 * If your co-workers tend to create spreadsheets that are [unreadable by computers](https://bosker.wordpress.com/2014/12/05/the-government-statistical-services-terrible-spreadsheet-advice/), perhaps they would benefit from reading this list of [tips for releasing data in spreadsheets](http://www.clean-sheet.org/). (There are some additional suggestions in this [answer](http://stats.stackexchange.com/questions/83614/best-practices-for-creating-tidy-data/83711#83711) from Cross Validated.)
 * Here's [Colbert on reproducibility](http://thecolbertreport.cc.com/videos/dcyvro/austerity-s-spreadsheet-error) (8 minutes).
