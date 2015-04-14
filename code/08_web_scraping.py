@@ -88,15 +88,15 @@ b.find(name='p', attrs={"id":"current"})
 ##########################################
    
 # 1. Extact the 'h3' element from Brandon's webpage.
-
+b.find(name='h3')
    
 # 2. Extract Brandon's hobbies from the html_doc.  Print out the text of the hobby.  
-
-
-
+hobbies = b.findAll(name='ul')
+for hobby in hobbies:
+    print hobby.text
 
 # 3. Extract Brandon's hobby that has the id "my favorite".
-
+b.find(name='li', attrs={'id':'my favorite'})
 
     
 '''
@@ -158,15 +158,15 @@ len(src_list)
 # Now let's talk about 'attrs'
 # Beautiful soup also allows us to choose tags with specific attributes
 title = b.find(name="span", attrs={"class":"itemprop", "itemprop":"name"})
-title # Prints HTML matching thattag, but we want the actual name
+title # Prints HTML matching that tag, but we want the actual name
 title.text # The "text" attribute gives you the text between two HTML tags
 
-star_rating = b.find(name="div", attrs={"class":"titlePageSprite"})
+star_rating = b.find(name="div", attrs={"class":"titlePageSprite star-box-giga-star"})
 # How do I get the actual star_rating number?
-
+star_rating.text
 
 # How do I make this star_rating a number instead of a string?
-
+float(star_rating.text)
 
 ##########################################
 ############    Exercise 2    ############
@@ -179,15 +179,15 @@ Hint:  Everything can be found in the "infobar".  Try finding that first and
 searchng within it.
 '''
 
-
+infobar = b.find(name="div", attrs={"class":"infobar"})
 # Retrieve the show's content rating
-
+content_rating = infobar.find(name='meta', attrs={"itemprop":"contentRating"})['content']
 
 # Retrieve the show's duration
-
+duration = infobar.find(name='time', attrs={"itemprop":"duration"}).text
 
 # Retrieve the show's genre
-
+genre = infobar.find(name='span', attrs={"itemprop":"genre"}).text
 
 
 '''
