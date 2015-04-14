@@ -1,5 +1,5 @@
 '''
-EXERCISE: Glass Identification (aka "Glassification")
+HOMEWORK: Glass Identification (aka "Glassification")
 '''
 
 # TASK 1: read data into a DataFrame
@@ -44,7 +44,7 @@ from sklearn import metrics
 print metrics.accuracy_score(y_test, y_pred)    # 90.7% accuracy
 
 # TASK 9: calculate null accuracy
-1 - y_test.mean()                               # 74.1% null accuracy
+1 - y.mean()                                    # 76.2% null accuracy
 
 # BONUS: write a for loop that computes test set accuracy for a range of K values
 k_range = range(1, 30, 2)
