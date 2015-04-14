@@ -206,7 +206,7 @@ Monday | Wednesday
     * Work in pairs, but the goal is for every person to make at least one submission by the end of the class period!
 
 **Homework:**
-* Option 1 is to do the [Glass identification homework](homework/07_glass_identification.md). This is a good option if you are still getting comfortable with what we have learned so far, and prefer a very structured assignment.
+* Option 1 is to do the [Glass identification homework](homework/07_glass_identification.md). This is a good option if you are still getting comfortable with what we have learned so far, and prefer a very structured assignment. ([solution](code/07_glass_id_homework_solution.py))
 * Option 2 is to keep working on the Titanic competition, and see if you can make some additional progress! This is a good assignment if you are feeling comfortable with the material and want to learn a bit more on your own.
 * In either case, please submit your code as usual, and include lots of code comments!
 
