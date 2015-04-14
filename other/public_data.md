@@ -40,6 +40,7 @@
      * [200,000+ Jeopardy questions](http://www.reddit.com/r/datasets/comments/1uyd0t/200000_jeopardy_questions_in_a_json_file/)
      * [CrowdFlower](http://www.crowdflower.com/data-for-everyone): interesting datasets created or enhanced by their contributors
      * [UFO reports](https://github.com/planetsig/ufo-reports): geolocated and time-standardized UFO reports for close to a century
+     * [Reddit Top 2.5 Million](https://github.com/umbrae/reddit-top-2.5-million): all-time top 1,000 posts from each of the top 2,500 subreddits
 * Other resources:
      * [Datasets subreddit](http://www.reddit.com/r/datasets/): ask for help finding a specific data set, or post your own
      * [Center for Data Innovation](http://www.datainnovation.org/category/publications/data-set-blog/): blog posts about interesting, recently-released data sets.
