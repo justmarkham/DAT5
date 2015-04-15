@@ -229,3 +229,28 @@ Monday | Wednesday
 * If you want to learn more about tidy data, [Hadley Wickham's paper](http://www.jstatsoft.org/v59/i10/paper) has a lot of nice examples.
 * If your co-workers tend to create spreadsheets that are [unreadable by computers](https://bosker.wordpress.com/2014/12/05/the-government-statistical-services-terrible-spreadsheet-advice/), perhaps they would benefit from reading this list of [tips for releasing data in spreadsheets](http://www.clean-sheet.org/). (There are some additional suggestions in this [answer](http://stats.stackexchange.com/questions/83614/best-practices-for-creating-tidy-data/83711#83711) from Cross Validated.)
 * Here's [Colbert on reproducibility](http://thecolbertreport.cc.com/videos/dcyvro/austerity-s-spreadsheet-error) (8 minutes).
+
+
+-----
+
+### Class 9: Linear Regression
+* Linear regression ([notebook](http://nbviewer.ipython.org/github/justmarkham/DAT5/blob/master/notebooks/09_linear_regression.ipynb))
+    * Simple linear regression
+    * Estimating and interpreting model coefficients
+    * Confidence intervals
+    * Hypothesis testing and p-values
+    * R-squared
+    * Multiple linear regression
+    * Feature selection
+    * Model evaluation metrics for regression
+    * Handling categorical predictors
+
+**Homework:**
+* If you're behind on homework, use this time to catch up.
+* Keep working on your project... your first presentation is in less than two weeks!!
+
+**Resources:**
+* To go much more in-depth on linear regression, read Chapter 3 of [An Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/), from which this lesson was adapted. Alternatively, watch the [related videos](http://www.dataschool.io/15-hours-of-expert-machine-learning-videos/) or read my [quick reference guide](http://www.dataschool.io/applying-and-interpreting-linear-regression/) to the key points in that chapter.
+* To learn more about Statsmodels and how to interpret the output, DataRobot has some decent posts on [simple linear regression](http://www.datarobot.com/blog/ordinary-least-squares-in-python/) and [multiple linear regression](http://www.datarobot.com/blog/multiple-regression-using-statsmodels/).
+* This [introduction to linear regression](http://people.duke.edu/~rnau/regintro.htm) is much more detailed and mathematically thorough, and includes lots of good advice.
+* This is a relatively quick post on the [assumptions of linear regression](http://pareonline.net/getvn.asp?n=2&v=8).
