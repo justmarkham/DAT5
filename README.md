@@ -272,3 +272,12 @@ Monday | Wednesday
 * Better Explained has a very friendly introduction (with lots of examples) to the [intuition behind "e"](http://betterexplained.com/articles/an-intuitive-guide-to-exponential-functions-e/).
 * Here are some useful lecture notes on [interpreting logistic regression coefficients](http://www.unm.edu/~schrader/biostat/bio2/Spr06/lec11.pdf).
 * Kevin wrote a [simple guide to confusion matrix terminology](http://www.dataschool.io/simple-guide-to-confusion-matrix-terminology/) that you can use as a reference guide.
+
+
+-----
+
+### Class 11: ROC Curves and Cross-Validation
+* ROC Curves and Area Under the Curve
+    * Discuss the [video assignment](homework/10_ROC_AUC.md)
+    * Exercise: [drawing an ROC curve](slides/11_drawing_roc.pdf)
+    * Calculating AUC and plotting an ROC curve ([notebook](http://nbviewer.ipython.org/github/justmarkham/DAT5/blob/master/notebooks/11_roc_auc.ipynb))
