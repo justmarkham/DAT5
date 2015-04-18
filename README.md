@@ -11,7 +11,7 @@ Monday | Wednesday
 **3/30:** Visualization and APIs | 4/1: Machine Learning and KNN
 **4/6:** Bias-Variance and Model Evaluation | 4/8: Kaggle Titanic (Part 1)
 4/13: Web Scraping, Tidy Data, Reproducibility | 4/15: Linear Regression
-4/20: Logistic Regression and Confusion Matrix | 4/22: ROC and Cross-Validation
+4/20: Logistic Regression and Confusion Matrices | 4/22: ROC and Cross-Validation
 **4/27:** Project Presentation #1 | 4/29: Kaggle Titanic (Part 2)
 5/4: Naive Bayes | 5/6: Natural Language Processing
 5/11: Decision Trees | 5/13: Ensembles
@@ -254,3 +254,21 @@ Monday | Wednesday
 * To learn more about Statsmodels and how to interpret the output, DataRobot has some decent posts on [simple linear regression](http://www.datarobot.com/blog/ordinary-least-squares-in-python/) and [multiple linear regression](http://www.datarobot.com/blog/multiple-regression-using-statsmodels/).
 * This [introduction to linear regression](http://people.duke.edu/~rnau/regintro.htm) is much more detailed and mathematically thorough, and includes lots of good advice.
 * This is a relatively quick post on the [assumptions of linear regression](http://pareonline.net/getvn.asp?n=2&v=8).
+
+
+-----
+
+### Class 10: Logistic Regression and Confusion Matrices
+* Logistic regression
+* Confusion matrices
+
+**Homework:**
+* Video assignment on [ROC Curves and Area Under the Curve](homework/10_ROC_AUC.md)
+* Review the notebook from class 6 on [model evaluation procedures](http://nbviewer.ipython.org/github/justmarkham/DAT5/blob/master/notebooks/06_model_evaluation_procedures.ipynb)
+
+**Resources:**
+* For more on logistic regression, watch the [first three videos](https://www.youtube.com/playlist?list=PL5-da3qGB5IC4vaDba5ClatUmFppXLAhE) (30 minutes total) from Chapter 4 of An Introduction to Statistical Learning.
+* UCLA's IDRE has a handy table to help you remember the [relationship between probability, odds, and log-odds](http://www.ats.ucla.edu/stat/mult_pkg/faq/general/odds_ratio.htm).
+* Better Explained has a very friendly introduction (with lots of examples) to the [intuition behind "e"](http://betterexplained.com/articles/an-intuitive-guide-to-exponential-functions-e/).
+* Here are some useful lecture notes on [interpreting logistic regression coefficients](http://www.unm.edu/~schrader/biostat/bio2/Spr06/lec11.pdf).
+* Kevin wrote a [simple guide to confusion matrix terminology](http://www.dataschool.io/simple-guide-to-confusion-matrix-terminology/) that you can use as a reference guide.
