@@ -263,7 +263,7 @@ Monday | Wednesday
 * Confusion matrices
 
 **Homework:**
-* Video assignment on [ROC Curves and Area Under the Curve](homework/10_ROC_AUC.md)
+* Video assignment on [ROC Curves and Area Under the Curve](homework/10_roc_auc.md)
 * Review the notebook from class 6 on [model evaluation procedures](http://nbviewer.ipython.org/github/justmarkham/DAT5/blob/master/notebooks/06_model_evaluation_procedures.ipynb)
 
 **Resources:**
@@ -278,6 +278,6 @@ Monday | Wednesday
 
 ### Class 11: ROC Curves and Cross-Validation
 * ROC Curves and Area Under the Curve
-    * Discuss the [video assignment](homework/10_ROC_AUC.md)
+    * Discuss the [video assignment](homework/10_roc_auc.md)
     * Exercise: [drawing an ROC curve](slides/11_drawing_roc.pdf)
     * Calculating AUC and plotting an ROC curve ([notebook](http://nbviewer.ipython.org/github/justmarkham/DAT5/blob/master/notebooks/11_roc_auc.ipynb))
