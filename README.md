@@ -277,7 +277,9 @@ Monday | Wednesday
 -----
 
 ### Class 11: ROC Curves and Cross-Validation
-* ROC Curves and Area Under the Curve
+* ROC curves and Area Under the Curve
     * Discuss the [video assignment](homework/10_roc_auc.md)
     * Exercise: [drawing an ROC curve](slides/11_drawing_roc.pdf)
     * Calculating AUC and plotting an ROC curve ([notebook](http://nbviewer.ipython.org/github/justmarkham/DAT5/blob/master/notebooks/11_roc_auc.ipynb))
+* Cross-validation ([notebook](http://nbviewer.ipython.org/github/justmarkham/DAT5/blob/master/notebooks/11_cross_validation.ipynb))
+* Discuss this article on [Smart Autofill for Google Sheets](http://googleresearch.blogspot.com/2014/10/smart-autofill-harnessing-predictive.html)
