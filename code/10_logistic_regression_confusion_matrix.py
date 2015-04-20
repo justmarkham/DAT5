@@ -23,7 +23,7 @@ data['student_bin'] = data.student.map({'No':0, 'Yes':1})
 
 # Let's do some cursory analysis.
 data.groupby('default').balance.mean()
-data.groupby('default').balance.mean()
+data.groupby('default').income.mean()
 
 # Set X and y
 feature_cols = ['balance', 'income','student_bin']
