@@ -259,8 +259,8 @@ Monday | Wednesday
 -----
 
 ### Class 10: Logistic Regression and Confusion Matrices
-* Logistic regression
-* Confusion matrices
+* Logistic regression ([slides](slides/10_logistic_regression_confusion_matrix.pdf) and [code](code/10_logistic_regression_confusion_matrix.py))
+* Confusion matrices (same links as above)
 
 **Homework:**
 * Video assignment on [ROC Curves and Area Under the Curve](homework/10_roc_auc.md)
