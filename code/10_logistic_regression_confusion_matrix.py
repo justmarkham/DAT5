@@ -44,14 +44,23 @@ y_test.mean()
 ################################################################################
 
 # print confusion matrix
-print metrics.confusion_matrix(y_test, y_pred)
+con_mat = metrics.confusion_matrix(y_test, y_pred)
+print con_mat
+
+# Let's define our true posititves, false positives, true negatives, and false negatives
+true_neg = con_mat[0][0]
+false_neg = con_mat[1][0]
+true_pos = con_mat[1][1]
+false_pos = con_mat[0][1]
 
 # sensitivity: percent of correct predictions when reference value is 'default'
-21 / float(58 + 21)
+sensitivity = float(true_pos)/(false_neg + true_pos)
+print sensitivity
 print metrics.recall_score(y_test, y_pred)
 
 # specificity: percent of correct predictions when reference value is 'not default'
-2416 / float(2416 + 5)
+specificity = float(true_neg) / (true_neg + false_pos)
+print specificity
 
 # predict probabilities
 import matplotlib.pyplot as plt
@@ -62,13 +71,18 @@ plt.show()
 # use 0.5 cutoff for predicting 'default'
 import numpy as np
 preds = np.where(probs > 0.5, 1, 0)
-print ConfusionMatrix(list(y_test), list(preds))
+print metrics.confusion_matrix(list(y_test), list(preds))
 
 # change cutoff for predicting default to 0.2
 preds = np.where(probs > 0.2, 1, 0)
-print ConfusionMatrix(list(y_test), list(preds))
+print metrics.confusion_matrix(list(y_test), list(preds))
 
 # check accuracy, sensitivity, specificity
 print metrics.accuracy_score(y_test, preds)
 45 / float(34 + 45)
 2340 / float(2340 + 81)
+
+
+################################################################################
+### Exercise
+################################################################################
