@@ -12,8 +12,8 @@ Monday | Wednesday
 **4/6:** Bias-Variance and Model Evaluation | 4/8: Kaggle Titanic (Part 1)
 4/13: Web Scraping, Tidy Data, Reproducibility | 4/15: Linear Regression
 4/20: Logistic Regression and Confusion Matrices | 4/22: ROC and Cross-Validation
-**4/27:** Project Presentation #1 | 4/29: Kaggle Titanic (Part 2)
-5/4: Naive Bayes | 5/6: Natural Language Processing
+**4/27:** Project Presentation #1, Naive Bayes | 4/29: Naive Bayes
+5/4: Natural Language Processing | 5/6: Kaggle Titanic (Part 2)
 5/11: Decision Trees | 5/13: Ensembles
 **5/18:** Clustering and Regularization | 5/20: Advanced scikit-learn
 **5/25:** *No Class* | 5/27: Databases and SQL
