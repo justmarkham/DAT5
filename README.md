@@ -12,7 +12,7 @@ Monday | Wednesday
 **4/6:** Bias-Variance and Model Evaluation | 4/8: Kaggle Titanic (Part 1)
 4/13: Web Scraping, Tidy Data, Reproducibility | 4/15: Linear Regression
 4/20: Logistic Regression and Confusion Matrices | 4/22: ROC and Cross-Validation
-**4/27:** Project Presentation #1, Naive Bayes | 4/29: Naive Bayes
+**4/27:** Project Presentation #1, Bayes' Theorem | 4/29: Naive Bayes
 5/4: Natural Language Processing | 5/6: Kaggle Titanic (Part 2)
 5/11: Decision Trees | 5/13: Ensembles
 **5/18:** Clustering and Regularization | 5/20: Advanced scikit-learn
@@ -283,3 +283,12 @@ Monday | Wednesday
     * Calculating AUC and plotting an ROC curve ([notebook](http://nbviewer.ipython.org/github/justmarkham/DAT5/blob/master/notebooks/11_roc_auc.ipynb))
 * Cross-validation ([notebook](http://nbviewer.ipython.org/github/justmarkham/DAT5/blob/master/notebooks/11_cross_validation.ipynb))
 * Discuss this article on [Smart Autofill for Google Sheets](http://googleresearch.blogspot.com/2014/10/smart-autofill-harnessing-predictive.html)
+* Exercise
+
+**Homework:**
+* Your first [project presentation](other/project.md) is on Monday! Please submit a link to your project repository (with slides, code, and visualizations) before class using the homework submission form.
+* To prepare for the second part of Monday's class, please read these [Introduction to Probability](https://docs.google.com/presentation/d/1cM2dVbJgTWMkHoVNmYlB9df6P2H8BrjaqAcZTaLe9dA/edit#slide=id.gfc3caad2_00) slides (from the [OpenIntro Statistics textbook](https://www.openintro.org/stat/textbook.php)) and try the included quizzes. Pay specific attention to the following terms: probability, sample space, mutually exclusive, independent.
+
+**Resources:**
+* scikit-learn has extensive documentation on [model evaluation](http://scikit-learn.org/stable/modules/model_evaluation.html).
+* For more on cross-validation, read section 5.1 of [An Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/) (11 pages) or watch the related videos: [K-fold and leave-one-out cross-validation](https://www.youtube.com/watch?v=nZAM5OXrktY) (14 minutes), [cross-validation the right and wrong ways](https://www.youtube.com/watch?v=S06JpVoNaA0) (10 minutes).
