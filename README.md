@@ -12,7 +12,7 @@ Monday | Wednesday
 **4/6:** Bias-Variance and Model Evaluation | 4/8: Kaggle Titanic (Part 1)
 4/13: Web Scraping, Tidy Data, Reproducibility | 4/15: Linear Regression
 4/20: Logistic Regression and Confusion Matrices | 4/22: ROC and Cross-Validation
-**4/27:** Project Presentation #1, Bayes' Theorem | 4/29: Naive Bayes
+**4/27:** Project Presentation #1 | 4/29: Naive Bayes
 5/4: Natural Language Processing | 5/6: Kaggle Titanic (Part 2)
 5/11: Decision Trees | 5/13: Ensembles
 **5/18:** Clustering and Regularization | 5/20: Advanced scikit-learn
@@ -286,7 +286,6 @@ Monday | Wednesday
 
 **Homework:**
 * Your first [project presentation](other/project.md) is on Monday! Please submit a link to your project repository (with slides, code, and visualizations) before class using the homework submission form.
-* To prepare for the second part of Monday's class, please read these [Introduction to Probability](https://docs.google.com/presentation/d/1cM2dVbJgTWMkHoVNmYlB9df6P2H8BrjaqAcZTaLe9dA/edit#slide=id.gfc3caad2_00) slides (from the [OpenIntro Statistics textbook](https://www.openintro.org/stat/textbook.php)) and try the included quizzes. Pay specific attention to the following terms: probability, sample space, mutually exclusive, independent.
 
 **Optional:**
 * Titanic exercise ([notebook](http://nbviewer.ipython.org/github/justmarkham/DAT5/blob/master/notebooks/11_titanic_exercise.ipynb))
@@ -298,14 +297,20 @@ Monday | Wednesday
 
 -----
 
-### Class 12: Project Presentation #1 and Bayes' Theorem
+### Class 12: Project Presentation #1
 * Project presentations!
-* Probability and Bayes' theorem [slides](slides/12_bayes_theorem.pdf) (adapted from [Visualizing Bayes' theorem](http://oscarbonilla.com/2009/05/visualizing-bayes-theorem/))
-* [Visualization of conditional probability](http://setosa.io/conditional/)
-* Applying Bayes' theorem to iris classification ([notebook](http://nbviewer.ipython.org/github/justmarkham/DAT5/blob/master/notebooks/12_bayes_iris.ipynb))
 
 **Homework:**
-* Reading assignment on [spam filtering](homework/12_spam_filtering.md)
+* Read these [Introduction to Probability](https://docs.google.com/presentation/d/1cM2dVbJgTWMkHoVNmYlB9df6P2H8BrjaqAcZTaLe9dA/edit#slide=id.gfc3caad2_00) slides (from the [OpenIntro Statistics textbook](https://www.openintro.org/stat/textbook.php)) and try the included quizzes. Pay specific attention to the following terms: probability, sample space, mutually exclusive, independent.
+* Reading assignment on [spam filtering](homework/12_spam_filtering.md).
+
+
+-----
+
+### Class 13: Naive Bayes
+* Probability and Bayes' theorem [slides](slides/13_bayes_theorem.pdf) (adapted from [Visualizing Bayes' theorem](http://oscarbonilla.com/2009/05/visualizing-bayes-theorem/))
+* [Visualization of conditional probability](http://setosa.io/conditional/)
+* Applying Bayes' theorem to iris classification ([notebook](http://nbviewer.ipython.org/github/justmarkham/DAT5/blob/master/notebooks/13_bayes_iris.ipynb))
 
 **Resources:**
 * For other intuitive introductions to Bayes' theorem, here are two good blog posts that use [ducks](https://planspacedotorg.wordpress.com/2014/02/23/bayes-rule-for-ducks/) and [legos](http://www.countbayesie.com/blog/2015/2/18/bayes-theorem-with-lego).
