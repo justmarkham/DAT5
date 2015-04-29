@@ -308,10 +308,20 @@ Monday | Wednesday
 -----
 
 ### Class 13: Naive Bayes
-* Probability and Bayes' theorem [slides](slides/13_bayes_theorem.pdf) (adapted from [Visualizing Bayes' theorem](http://oscarbonilla.com/2009/05/visualizing-bayes-theorem/))
-* [Visualization of conditional probability](http://setosa.io/conditional/)
-* Applying Bayes' theorem to iris classification ([notebook](http://nbviewer.ipython.org/github/justmarkham/DAT5/blob/master/notebooks/13_bayes_iris.ipynb))
+* Conditional probability and Bayes' theorem
+    * [Slides](slides/13_bayes_theorem.pdf) (adapted from [Visualizing Bayes' theorem](http://oscarbonilla.com/2009/05/visualizing-bayes-theorem/))
+    * [Visualization of conditional probability](http://setosa.io/conditional/)
+    * Applying Bayes' theorem to iris classification ([notebook](http://nbviewer.ipython.org/github/justmarkham/DAT5/blob/master/notebooks/13_bayes_iris.ipynb))
+* Naive Bayes classification
+    * [Slides](slides/13_naive_bayes.pdf)
+    * Example with spam email ([notebook](http://nbviewer.ipython.org/github/justmarkham/DAT5/blob/master/notebooks/13_naive_bayes_spam.ipynb))
+    * Discuss the reading assignment on [spam filtering](homework/12_spam_filtering.md)
+    * [Airport security example](http://www.quora.com/In-laymans-terms-how-does-Naive-Bayes-work/answer/Konstantin-Tt)
+    * Classifying [SMS messages](https://archive.ics.uci.edu/ml/datasets/SMS+Spam+Collection) (code)
 
 **Resources:**
 * For other intuitive introductions to Bayes' theorem, here are two good blog posts that use [ducks](https://planspacedotorg.wordpress.com/2014/02/23/bayes-rule-for-ducks/) and [legos](http://www.countbayesie.com/blog/2015/2/18/bayes-theorem-with-lego).
 * For more on conditional probability, these [slides](https://docs.google.com/presentation/d/1psUIyig6OxHQngGEHr3TMkCvhdLInnKnclQoNUr4G4U/edit#slide=id.gfc69f484_00) may be useful.
+* For more details on Naive Bayes classification, Wikipedia has two excellent articles ([Naive Bayes classifier](http://en.wikipedia.org/wiki/Naive_Bayes_classifier) and [Naive Bayes spam filtering](http://en.wikipedia.org/wiki/Naive_Bayes_spam_filtering)), and Cross Validated has a good [Q&A](http://stats.stackexchange.com/questions/21822/understanding-naive-bayes).
+* If you enjoyed Paul Graham's article, you can read [his follow-up article](http://www.paulgraham.com/better.html) on how he improved his spam filter and this [related paper](http://www.merl.com/publications/docs/TR2004-091.pdf) about state-of-the-art spam filtering in 2004.
+* If you're planning on using text features in your project, it's worth exploring the different types of [Naive Bayes](http://scikit-learn.org/stable/modules/naive_bayes.html) and the many options for [CountVectorizer](http://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.CountVectorizer.html).
