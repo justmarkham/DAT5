@@ -317,7 +317,7 @@ Monday | Wednesday
     * Example with spam email ([notebook](http://nbviewer.ipython.org/github/justmarkham/DAT5/blob/master/notebooks/13_naive_bayes_spam.ipynb))
     * Discuss the reading assignment on [spam filtering](homework/12_spam_filtering.md)
     * [Airport security example](http://www.quora.com/In-laymans-terms-how-does-Naive-Bayes-work/answer/Konstantin-Tt)
-    * Classifying [SMS messages](https://archive.ics.uci.edu/ml/datasets/SMS+Spam+Collection) (code)
+    * Classifying [SMS messages](https://archive.ics.uci.edu/ml/datasets/SMS+Spam+Collection) ([code](code/13_naive_bayes.py))
 
 **Resources:**
 * For other intuitive introductions to Bayes' theorem, here are two good blog posts that use [ducks](https://planspacedotorg.wordpress.com/2014/02/23/bayes-rule-for-ducks/) and [legos](http://www.countbayesie.com/blog/2015/2/18/bayes-theorem-with-lego).
