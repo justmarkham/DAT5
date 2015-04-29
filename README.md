@@ -319,6 +319,11 @@ Monday | Wednesday
     * [Airport security example](http://www.quora.com/In-laymans-terms-how-does-Naive-Bayes-work/answer/Konstantin-Tt)
     * Classifying [SMS messages](https://archive.ics.uci.edu/ml/datasets/SMS+Spam+Collection) ([code](code/13_naive_bayes.py))
 
+**Homework:**
+* Please download/install the following for the NLP class on Monday
+    * In Spyder, `import nltk` and run `nltk.download('all')`.  This downloads all of the necessary resources for the Natural Language Tool Kit.
+    * We'll be using two new packages/modules for this class:  textblob and lda.  Please install them.  **Hint**:  In the Terminal (Mac) or Git Bash (Windows), run `pip install textblob` and `pip install lda`.
+
 **Resources:**
 * For other intuitive introductions to Bayes' theorem, here are two good blog posts that use [ducks](https://planspacedotorg.wordpress.com/2014/02/23/bayes-rule-for-ducks/) and [legos](http://www.countbayesie.com/blog/2015/2/18/bayes-theorem-with-lego).
 * For more on conditional probability, these [slides](https://docs.google.com/presentation/d/1psUIyig6OxHQngGEHr3TMkCvhdLInnKnclQoNUr4G4U/edit#slide=id.gfc69f484_00) may be useful.
