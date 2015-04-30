@@ -95,17 +95,17 @@ np.sum(arr, axis=0)
 np.sum(arr, axis=1)
 
 # exercise: calculate the number of tokens in the 0th message in train_arr
-
+sum(train_arr[0, :])
 
 # exercise: count how many times the 0th token appears across ALL messages in train_arr
-
+sum(train_arr[:, 0])
 
 # exercise: count how many times EACH token appears across ALL messages in train_arr
-
+np.sum(train_arr, axis=0)
 
 # exercise: create a DataFrame of tokens with their counts
-
-
+train_token_counts = pd.DataFrame({'token':train_features, 'count':np.sum(train_arr, axis=0)})
+train_token_counts.sort('count', ascending=False)
 
 
 ## MODEL BUILDING WITH NAIVE BAYES
