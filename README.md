@@ -348,4 +348,5 @@ Monday | Wednesday
 * [DC Natural Language Processing](http://www.meetup.com/DC-NLP/): active Meetup group
 * [Stanford CoreNLP](http://nlp.stanford.edu/software/corenlp.shtml): suite of tools if you want to get serious about NLP
 * Getting started with regex: [Python introductory lesson](https://developers.google.com/edu/python/regular-expressions) and [reference guide](https://github.com/justmarkham/DAT3/blob/master/code/99_regex_reference.py), [real-time regex tester](https://regex101.com/#python), [in-depth tutorials](http://www.rexegg.com/)
+* [Textblob documentation](http://textblob.readthedocs.org/en/dev/)
 * [SpaCy](http://honnibal.github.io/spaCy/): a new NLP package
