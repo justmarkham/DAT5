@@ -330,3 +330,22 @@ Monday | Wednesday
 * For more details on Naive Bayes classification, Wikipedia has two excellent articles ([Naive Bayes classifier](http://en.wikipedia.org/wiki/Naive_Bayes_classifier) and [Naive Bayes spam filtering](http://en.wikipedia.org/wiki/Naive_Bayes_spam_filtering)), and Cross Validated has a good [Q&A](http://stats.stackexchange.com/questions/21822/understanding-naive-bayes).
 * If you enjoyed Paul Graham's article, you can read [his follow-up article](http://www.paulgraham.com/better.html) on how he improved his spam filter and this [related paper](http://www.merl.com/publications/docs/TR2004-091.pdf) about state-of-the-art spam filtering in 2004.
 * If you're planning on using text features in your project, it's worth exploring the different types of [Naive Bayes](http://scikit-learn.org/stable/modules/naive_bayes.html) and the many options for [CountVectorizer](http://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.CountVectorizer.html).
+
+
+-----
+
+### Class 14: Natural Language Processing
+* Natural Language Processing ([notebook](http://nbviewer.ipython.org/github/justmarkham/DAT5/blob/master/notebooks/14_nlp.ipynb))
+* NLTK: tokenization, stemming, lemmatization, part of speech tagging, stopwords, Named Entity Recognition, LDA
+* Alternative: TextBlob
+
+**Resources:**
+* [Natural Language Processing with Python](http://www.nltk.org/book/): free online book to go in-depth with NLTK
+* [NLP online course](https://www.coursera.org/course/nlp): no sessions are available, but [video lectures](https://class.coursera.org/nlp/lecture) and [slides](http://web.stanford.edu/~jurafsky/NLPCourseraSlides.html) are still accessible
+* [Brief slides](http://files.meetup.com/7616132/DC-NLP-2013-09%20Charlie%20Greenbacker.pdf) on the major task areas of NLP
+* [Detailed slides](https://github.com/ga-students/DAT_SF_9/blob/master/16_Text_Mining/DAT9_lec16_Text_Mining.pdf) on a lot of NLP terminology
+* [A visual survey of text visualization techniques](http://textvis.lnu.se/): for exploration and inspiration
+* [DC Natural Language Processing](http://www.meetup.com/DC-NLP/): active Meetup group
+* [Stanford CoreNLP](http://nlp.stanford.edu/software/corenlp.shtml): suite of tools if you want to get serious about NLP
+* Getting started with regex: [Python introductory lesson](https://developers.google.com/edu/python/regular-expressions) and [reference guide](https://github.com/justmarkham/DAT3/blob/master/code/99_regex_reference.py), [real-time regex tester](https://regex101.com/#python), [in-depth tutorials](http://www.rexegg.com/)
+* [SpaCy](http://honnibal.github.io/spaCy/): a new NLP package
