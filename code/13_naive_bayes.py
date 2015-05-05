@@ -131,10 +131,10 @@ y_prob
 print metrics.roc_auc_score(y_test, y_prob)
 
 # exercise: show the message text for the false positives
-
+X_test[y_test < y_pred]
 
 # exercise: show the message text for the false negatives
-
+X_test[y_test > y_pred]
 
 
 ## COMPARE NAIVE BAYES AND LOGISTIC REGRESSION
