@@ -9,11 +9,11 @@ Monday | Wednesday
  | 3/18: Introduction and Python
 3/23: Git and Command Line | 3/25: Exploratory Data Analysis
 **3/30:** Visualization and APIs | 4/1: Machine Learning and KNN
-**4/6:** Bias-Variance and Model Evaluation | 4/8: Kaggle Titanic (Part 1)
+**4/6:** Bias-Variance and Model Evaluation | 4/8: Kaggle Titanic
 4/13: Web Scraping, Tidy Data, Reproducibility | 4/15: Linear Regression
 4/20: Logistic Regression and Confusion Matrices | 4/22: ROC and Cross-Validation
 **4/27:** Project Presentation #1 | 4/29: Naive Bayes
-5/4: Natural Language Processing | 5/6: Kaggle Titanic (Part 2)
+5/4: Natural Language Processing | 5/6: Kaggle Stack Overflow
 5/11: Decision Trees | 5/13: Ensembles
 **5/18:** Clustering and Regularization | 5/20: Advanced scikit-learn
 **5/25:** *No Class* | 5/27: Databases and SQL
@@ -200,7 +200,7 @@ Monday | Wednesday
 
 -----
 
-### Class 7: Kaggle Titanic (Part 1)
+### Class 7: Kaggle Titanic
 * Guest instructor: [Josiah Davis](https://generalassemb.ly/instructors/josiah-davis/3315)
 * Participate in Kaggle's [Titanic competition](http://www.kaggle.com/c/titanic-gettingStarted)
     * Work in pairs, but the goal is for every person to make at least one submission by the end of the class period!
@@ -351,3 +351,20 @@ Monday | Wednesday
 * [A good explanation of LDA](http://www.quora.com/What-is-a-good-explanation-of-Latent-Dirichlet-Allocation)
 * [Textblob documentation](http://textblob.readthedocs.org/en/dev/)
 * [SpaCy](http://honnibal.github.io/spaCy/): a new NLP package
+
+
+-----
+
+### Class 15: Kaggle Stack Overflow
+* Overview of how Kaggle works ([slides](slides/15_kaggle.pdf))
+* Kaggle In-Class competition: [Predict whether a Stack Overflow question will be closed](https://inclass.kaggle.com/c/dat5-stack-overflow)
+
+**Optional:**
+* Keep working on this competition! You can make up to 5 submissions per day, and the competition doesn't close until 6:30pm ET on Wednesday, May 27 (class 20).
+
+**Resources:**
+* For a great overview of the diversity of problems tackled by Kaggle competitions, watch [Kaggle Transforms Data Science Into Competitive Sport](https://www.youtube.com/watch?v=8w4UY66GKcM) (28 minutes) by Jeremy Howard (past president of Kaggle).
+* [Getting in Shape for the Sport of Data Science](https://www.youtube.com/watch?v=kwt6XEh7U3g) (74 minutes), also by Jeremy Howard, contains a lot of tips for competitive machine learning.
+* [Learning from the best](http://blog.kaggle.com/2014/08/01/learning-from-the-best/) is an excellent blog post covering top tips from Kaggle Masters on how to do well on Kaggle.
+* [Feature Engineering Without Domain Expertise](https://www.youtube.com/watch?v=bL4b1sGnILU) (17 minutes), a talk by Kaggle Master Nick Kridler, provides some simple advice about how to iterate quickly and where to spend your time during a Kaggle competition.
+* Kevin's [project presentation video](https://www.youtube.com/watch?v=HGr1yQV3Um0) (16 minutes) gives a nice tour of the end-to-end machine learning process for a Kaggle competition. (Or, just check out the [slides](https://speakerdeck.com/justmarkham/allstate-purchase-prediction-challenge-on-kaggle).)
