@@ -368,3 +368,19 @@ Monday | Wednesday
 * [Learning from the best](http://blog.kaggle.com/2014/08/01/learning-from-the-best/) is an excellent blog post covering top tips from Kaggle Masters on how to do well on Kaggle.
 * [Feature Engineering Without Domain Expertise](https://www.youtube.com/watch?v=bL4b1sGnILU) (17 minutes), a talk by Kaggle Master Nick Kridler, provides some simple advice about how to iterate quickly and where to spend your time during a Kaggle competition.
 * Kevin's [project presentation video](https://www.youtube.com/watch?v=HGr1yQV3Um0) (16 minutes) gives a nice tour of the end-to-end machine learning process for a Kaggle competition. (Or, just check out the [slides](https://speakerdeck.com/justmarkham/allstate-purchase-prediction-challenge-on-kaggle).)
+
+
+-----
+
+### Class 16: Decision Trees
+* Decision trees ([notebook](notebooks/16_decision_trees.ipynb))
+
+**Resources:**
+* scikit-learn documentation: [Decision Trees](http://scikit-learn.org/stable/modules/tree.html)
+
+**Installing Graphviz (optional):**
+* Mac:
+    * [Download and install PKG file](http://www.graphviz.org/Download_macos.php)
+* Windows:
+    * [Download and install MSI file](http://www.graphviz.org/Download_windows.php)
+    * **Add it to your Path:** Go to Control Panel, System, Advanced System Settings, Environment Variables. Under system variables, edit "Path" to include the path to the "bin" folder, such as: `C:\Program Files (x86)\Graphviz2.38\bin`
