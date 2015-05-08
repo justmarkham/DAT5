@@ -157,34 +157,34 @@ cross_val_score(logreg, all_dtm, df.label, cv=10, scoring='roc_auc').mean()
 ## EXERCISE: CALCULATE THE 'SPAMMINESS' OF EACH TOKEN
 
 # create separate DataFrames for ham and spam
-
-
+df_ham = df[df.label==0]
+df_spam = df[df.label==1]
 
 # learn the vocabulary of ALL messages and save it
-
-
+vect.fit(df.msg)
+all_features = vect.get_feature_names()
 
 # create document-term matrix of ham, then convert to a regular array
-
-
+ham_dtm = vect.transform(df_ham.msg)
+ham_arr = ham_dtm.toarray()
 
 # create document-term matrix of spam, then convert to a regular array
-
-
+spam_dtm = vect.transform(df_spam.msg)
+spam_arr = spam_dtm.toarray()
 
 # count how many times EACH token appears across ALL messages in ham_arr
-
+ham_counts = np.sum(ham_arr, axis=0)
 
 # count how many times EACH token appears across ALL messages in spam_arr
-
+spam_counts = np.sum(spam_arr, axis=0)
 
 # create a DataFrame of tokens with their separate ham and spam counts
-
+all_token_counts = pd.DataFrame({'token':all_features, 'ham':ham_counts, 'spam':spam_counts})
 
 # add one to ham counts and spam counts so that ratio calculations (below) make more sense
-
-
+all_token_counts['ham'] = all_token_counts.ham + 1
+all_token_counts['spam'] = all_token_counts.spam + 1
 
 # calculate ratio of spam-to-ham for each token
-
-
+all_token_counts['spam_ratio'] = all_token_counts.spam / all_token_counts.ham
+all_token_counts.sort('spam_ratio')
