@@ -357,7 +357,7 @@ Monday | Wednesday
 
 ### Class 15: Kaggle Stack Overflow
 * Overview of how Kaggle works ([slides](slides/15_kaggle.pdf))
-* Kaggle In-Class competition: [Predict whether a Stack Overflow question will be closed](https://inclass.kaggle.com/c/dat5-stack-overflow)
+* Kaggle In-Class competition: [Predict whether a Stack Overflow question will be closed](https://inclass.kaggle.com/c/dat5-stack-overflow) ([code](code/15_kaggle.py))
 
 **Optional:**
 * Keep working on this competition! You can make up to 5 submissions per day, and the competition doesn't close until 6:30pm ET on Wednesday, May 27 (class 20).
