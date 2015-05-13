@@ -1,4 +1,4 @@
-## Class 10 Homework: ROC Curves and Area Under the Curve (AUC)
+## Class 11 Pre-work: ROC Curves and Area Under the Curve (AUC)
 
 Before learning about ROC curves, it's important to be comfortable with the following terms: true positive, true negative, false positive, false negative, sensitivity, and specificity. If you aren't yet comfortable, Rahul Patwari has excellent videos on [Intuitive sensitivity and specificity](https://www.youtube.com/watch?v=U4_3fditnWg) (9 minutes) and [The tradeoff between sensitivity and specificity](https://www.youtube.com/watch?v=vtYDyGGeQyo) (13 minutes).
 

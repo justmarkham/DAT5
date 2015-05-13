@@ -1,4 +1,4 @@
-## Class 5 Homework: Bias-Variance Tradeoff
+## Class 6 Pre-work: Bias-Variance Tradeoff
 
 Read this excellent article, [Understanding the Bias-Variance Tradeoff](http://scott.fortmann-roe.com/docs/BiasVariance.html), and be prepared to **discuss it in class** on Monday.
 

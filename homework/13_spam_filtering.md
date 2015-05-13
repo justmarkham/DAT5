@@ -1,4 +1,4 @@
-## Class 12 Homework: Spam Filtering
+## Class 13 Pre-work: Spam Filtering
 
 Read Paul Graham's [A Plan for Spam](http://www.paulgraham.com/spam.html) and be prepared to **discuss it in class on Wednesday**.
 

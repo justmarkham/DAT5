@@ -167,7 +167,7 @@ Monday | Wednesday
 
 **Homework:**
 * Complete your visualization homework assigned in class 4
-* [Reading assignment on the bias-variance tradeoff](homework/05_bias_variance.md)
+* [Reading assignment on the bias-variance tradeoff](homework/06_bias_variance.md)
 * A write-up about your [project question and dataset](other/project.md) is due on Monday! ([example one](https://github.com/justmarkham/DAT4-students/blob/master/jason/jk_project_idea.md), [example two](https://github.com/justmarkham/DAT4-students/blob/master/alexlee/project_question.md))
 
 **Optional:**
@@ -188,7 +188,7 @@ Monday | Wednesday
 ### Class 6: Bias-Variance Tradeoff and Model Evaluation
 * Brief introduction to the IPython Notebook
 * Exploring the bias-variance tradeoff ([notebook](http://nbviewer.ipython.org/github/justmarkham/DAT5/blob/master/notebooks/06_bias_variance.ipynb))
-* Discussion of the [assigned reading](homework/05_bias_variance.md) on the bias-variance tradeoff
+* Discussion of the [assigned reading](homework/06_bias_variance.md) on the bias-variance tradeoff
 * Model evaluation procedures ([notebook](http://nbviewer.ipython.org/github/justmarkham/DAT5/blob/master/notebooks/06_model_evaluation_procedures.ipynb))
 
 **Resources:**
@@ -263,7 +263,7 @@ Monday | Wednesday
 * Confusion matrices (same links as above)
 
 **Homework:**
-* Video assignment on [ROC Curves and Area Under the Curve](homework/10_roc_auc.md)
+* Video assignment on [ROC Curves and Area Under the Curve](homework/11_roc_auc.md)
 * Review the notebook from class 6 on [model evaluation procedures](http://nbviewer.ipython.org/github/justmarkham/DAT5/blob/master/notebooks/06_model_evaluation_procedures.ipynb)
 
 **Resources:**
@@ -278,7 +278,7 @@ Monday | Wednesday
 
 ### Class 11: ROC Curves and Cross-Validation
 * ROC curves and Area Under the Curve
-    * Discuss the [video assignment](homework/10_roc_auc.md)
+    * Discuss the [video assignment](homework/11_roc_auc.md)
     * Exercise: [drawing an ROC curve](slides/11_drawing_roc.pdf)
     * Calculating AUC and plotting an ROC curve ([notebook](http://nbviewer.ipython.org/github/justmarkham/DAT5/blob/master/notebooks/11_roc_auc.ipynb))
 * Cross-validation ([notebook](http://nbviewer.ipython.org/github/justmarkham/DAT5/blob/master/notebooks/11_cross_validation.ipynb))
@@ -302,7 +302,7 @@ Monday | Wednesday
 
 **Homework:**
 * Read these [Introduction to Probability](https://docs.google.com/presentation/d/1cM2dVbJgTWMkHoVNmYlB9df6P2H8BrjaqAcZTaLe9dA/edit#slide=id.gfc3caad2_00) slides (from the [OpenIntro Statistics textbook](https://www.openintro.org/stat/textbook.php)) and try the included quizzes. Pay specific attention to the following terms: probability, sample space, mutually exclusive, independent.
-* Reading assignment on [spam filtering](homework/12_spam_filtering.md).
+* Reading assignment on [spam filtering](homework/13_spam_filtering.md).
 
 
 -----
@@ -315,7 +315,7 @@ Monday | Wednesday
 * Naive Bayes classification
     * [Slides](slides/13_naive_bayes.pdf)
     * Example with spam email ([notebook](http://nbviewer.ipython.org/github/justmarkham/DAT5/blob/master/notebooks/13_naive_bayes_spam.ipynb))
-    * Discuss the reading assignment on [spam filtering](homework/12_spam_filtering.md)
+    * Discuss the reading assignment on [spam filtering](homework/13_spam_filtering.md)
     * [Airport security example](http://www.quora.com/In-laymans-terms-how-does-Naive-Bayes-work/answer/Konstantin-Tt)
     * Classifying [SMS messages](https://archive.ics.uci.edu/ml/datasets/SMS+Spam+Collection) ([code](code/13_naive_bayes.py))
 
