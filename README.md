@@ -374,12 +374,9 @@ Monday | Wednesday
 
 ### Class 16: Decision Trees
 * Decision trees ([notebook](notebooks/16_decision_trees.ipynb))
-* Ensembles and random forests ([notebook](notebooks/17_ensembling.ipynb))
 
 **Resources:**
 * scikit-learn documentation: [Decision Trees](http://scikit-learn.org/stable/modules/tree.html)
-* scikit-learn documentation: [Ensembles](http://scikit-learn.org/stable/modules/ensemble.html)
-* Quora: [How do random forests work in layman's terms?](http://www.quora.com/How-do-random-forests-work-in-laymans-terms/answer/Edwin-Chen-1)
 
 **Installing Graphviz (optional):**
 * Mac:
@@ -387,3 +384,13 @@ Monday | Wednesday
 * Windows:
     * [Download and install MSI file](http://www.graphviz.org/Download_windows.php)
     * **Add it to your Path:** Go to Control Panel, System, Advanced System Settings, Environment Variables. Under system variables, edit "Path" to include the path to the "bin" folder, such as: `C:\Program Files (x86)\Graphviz2.38\bin`
+
+
+-----
+
+### Class 17: Ensembles
+* Ensembles and random forests ([notebook](notebooks/17_ensembling.ipynb))
+
+**Resources:**
+* scikit-learn documentation: [Ensembles](http://scikit-learn.org/stable/modules/ensemble.html)
+* Quora: [How do random forests work in layman's terms?](http://www.quora.com/How-do-random-forests-work-in-laymans-terms/answer/Edwin-Chen-1)
