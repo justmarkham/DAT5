@@ -391,6 +391,9 @@ Monday | Wednesday
 ### Class 17: Ensembles
 * Ensembles and random forests ([notebook](notebooks/17_ensembling.ipynb))
 
+**Homework:**
+* Make at least one new submission to our [Kaggle competition](https://inclass.kaggle.com/c/dat5-stack-overflow)! We suggest trying Random Forests or building your own ensemble of models. For assistance, you could use this [framework code](code/17_ensembling_exercise.py), or refer to the [complete code](code/15_kaggle.py) from class 15. You can optionally submit your code to us if you want feedback.
+
 **Resources:**
 * scikit-learn documentation: [Ensembles](http://scikit-learn.org/stable/modules/ensemble.html)
 * Quora: [How do random forests work in layman's terms?](http://www.quora.com/How-do-random-forests-work-in-laymans-terms/answer/Edwin-Chen-1)
