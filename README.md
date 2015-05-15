@@ -187,9 +187,9 @@ Monday | Wednesday
 
 ### Class 6: Bias-Variance Tradeoff and Model Evaluation
 * Brief introduction to the IPython Notebook
-* Exploring the bias-variance tradeoff ([notebook](http://nbviewer.ipython.org/github/justmarkham/DAT5/blob/master/notebooks/06_bias_variance.ipynb))
+* Exploring the bias-variance tradeoff ([notebook](notebooks/06_bias_variance.ipynb))
 * Discussion of the [assigned reading](homework/06_bias_variance.md) on the bias-variance tradeoff
-* Model evaluation procedures ([notebook](http://nbviewer.ipython.org/github/justmarkham/DAT5/blob/master/notebooks/06_model_evaluation_procedures.ipynb))
+* Model evaluation procedures ([notebook](notebooks/06_model_evaluation_procedures.ipynb))
 
 **Resources:**
 * If you would like to learn the IPython Notebook, the official [Notebook tutorials](http://nbviewer.ipython.org/github/ipython/ipython/blob/master/examples/Notebook/Index.ipynb) are useful.
@@ -234,7 +234,7 @@ Monday | Wednesday
 -----
 
 ### Class 9: Linear Regression
-* Linear regression ([notebook](http://nbviewer.ipython.org/github/justmarkham/DAT5/blob/master/notebooks/09_linear_regression.ipynb))
+* Linear regression ([notebook](notebooks/09_linear_regression.ipynb))
     * Simple linear regression
     * Estimating and interpreting model coefficients
     * Confidence intervals
@@ -264,7 +264,7 @@ Monday | Wednesday
 
 **Homework:**
 * Video assignment on [ROC Curves and Area Under the Curve](homework/11_roc_auc.md)
-* Review the notebook from class 6 on [model evaluation procedures](http://nbviewer.ipython.org/github/justmarkham/DAT5/blob/master/notebooks/06_model_evaluation_procedures.ipynb)
+* Review the notebook from class 6 on [model evaluation procedures](notebooks/06_model_evaluation_procedures.ipynb)
 
 **Resources:**
 * For more on logistic regression, watch the [first three videos](https://www.youtube.com/playlist?list=PL5-da3qGB5IC4vaDba5ClatUmFppXLAhE) (30 minutes total) from Chapter 4 of An Introduction to Statistical Learning.
@@ -280,15 +280,15 @@ Monday | Wednesday
 * ROC curves and Area Under the Curve
     * Discuss the [video assignment](homework/11_roc_auc.md)
     * Exercise: [drawing an ROC curve](slides/11_drawing_roc.pdf)
-    * Calculating AUC and plotting an ROC curve ([notebook](http://nbviewer.ipython.org/github/justmarkham/DAT5/blob/master/notebooks/11_roc_auc.ipynb))
-* Cross-validation ([notebook](http://nbviewer.ipython.org/github/justmarkham/DAT5/blob/master/notebooks/11_cross_validation.ipynb))
+    * Calculating AUC and plotting an ROC curve ([notebook](notebooks/11_roc_auc.ipynb))
+* Cross-validation ([notebook](notebooks/11_cross_validation.ipynb))
 * Discuss this article on [Smart Autofill for Google Sheets](http://googleresearch.blogspot.com/2014/10/smart-autofill-harnessing-predictive.html)
 
 **Homework:**
 * Your first [project presentation](other/project.md) is on Monday! Please submit a link to your project repository (with slides, code, and visualizations) before class using the homework submission form.
 
 **Optional:**
-* Titanic exercise ([notebook](http://nbviewer.ipython.org/github/justmarkham/DAT5/blob/master/notebooks/11_titanic_exercise.ipynb))
+* Titanic exercise ([notebook](notebooks/11_titanic_exercise.ipynb))
 
 **Resources:**
 * scikit-learn has extensive documentation on [model evaluation](http://scikit-learn.org/stable/modules/model_evaluation.html).
@@ -311,10 +311,10 @@ Monday | Wednesday
 * Conditional probability and Bayes' theorem
     * [Slides](slides/13_bayes_theorem.pdf) (adapted from [Visualizing Bayes' theorem](http://oscarbonilla.com/2009/05/visualizing-bayes-theorem/))
     * [Visualization of conditional probability](http://setosa.io/conditional/)
-    * Applying Bayes' theorem to iris classification ([notebook](http://nbviewer.ipython.org/github/justmarkham/DAT5/blob/master/notebooks/13_bayes_iris.ipynb))
+    * Applying Bayes' theorem to iris classification ([notebook](notebooks/13_bayes_iris.ipynb))
 * Naive Bayes classification
     * [Slides](slides/13_naive_bayes.pdf)
-    * Example with spam email ([notebook](http://nbviewer.ipython.org/github/justmarkham/DAT5/blob/master/notebooks/13_naive_bayes_spam.ipynb))
+    * Example with spam email ([notebook](notebooks/13_naive_bayes_spam.ipynb))
     * Discuss the reading assignment on [spam filtering](homework/13_spam_filtering.md)
     * [Airport security example](http://www.quora.com/In-laymans-terms-how-does-Naive-Bayes-work/answer/Konstantin-Tt)
     * Classifying [SMS messages](https://archive.ics.uci.edu/ml/datasets/SMS+Spam+Collection) ([code](code/13_naive_bayes.py))
@@ -335,7 +335,7 @@ Monday | Wednesday
 -----
 
 ### Class 14: Natural Language Processing
-* Natural Language Processing ([notebook](http://nbviewer.ipython.org/github/justmarkham/DAT5/blob/master/notebooks/14_nlp.ipynb))
+* Natural Language Processing ([notebook](14_nlp.ipynb))
 * NLTK: tokenization, stemming, lemmatization, part of speech tagging, stopwords, Named Entity Recognition, LDA
 * Alternative: TextBlob
 
