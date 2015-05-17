@@ -285,7 +285,7 @@ Monday | Wednesday
 * Discuss this article on [Smart Autofill for Google Sheets](http://googleresearch.blogspot.com/2014/10/smart-autofill-harnessing-predictive.html)
 
 **Homework:**
-* Your first [project presentation](other/project.md) is due on Monday! Please submit a link to your project repository (with slides, code, and visualizations) before class using the homework submission form.
+* Your first [project presentation](other/project.md) is on Monday! Please submit a link to your project repository (with slides, code, and visualizations) before class using the homework submission form.
 
 **Optional:**
 * Titanic exercise ([notebook](notebooks/11_titanic_exercise.ipynb))
