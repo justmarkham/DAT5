@@ -51,55 +51,36 @@ plt.scatter(centers[:, 2], centers[:, 3], linewidths=3,
 plt.show()
 
 # We can generate a scatter matrix to see all of the different dimensions paired
-pd.scatter_matrix(data, c=colors[y_kmeans], figsize=(15,15))
+pd.scatter_matrix(data, c=colors[y_kmeans], figsize=(15,15), s = 100)
 plt.show()
 
 '''
 DETERMINING THE NUMBER OF CLUSTERS
 How do you choose k? There isn't a bright line, but we can evaluate 
-performance metrics such as the silhouette coefficient and within sum of 
-squared errors across values of k.
+performance metrics such as the silhouette coefficient across values of k.
+
+Note:  You also have to take into account practical limitations of choosing k
+also.  Ten clusters may give the best value, but it might not make sense in the
+context of your data.
 
 scikit-learn Clustering metrics documentation:
 http://scikit-learn.org/stable/modules/classes.html#clustering-metrics
 '''
 
 # Create a bunch of different models
-k_rng = range(1,15)
-est = [KMeans(n_clusters = k).fit(data[['STG', 'SCG', 'STR', 'LPR']]) for k in k_rng]
+k_rng = range(2,15)
+k_est = [KMeans(n_clusters = k).fit(data) for k in k_rng]
 
-#================================
-# Option 1: Silhouette Coefficient
+# Silhouette Coefficient
 # Generally want SC to be closer to 1, while also minimizing k
-
 from sklearn import metrics
-silhouette_score = [metrics.silhouette_score(data[['STG', 'SCG', 'STR', 'LPR']], e.labels_, metric='euclidean') for e in est[1:]]
+silhouette_score = [metrics.silhouette_score(data, e.labels_, metric='euclidean') for e in k_est]
 
 # Plot the results
 plt.figure(figsize=(7, 8))
 plt.subplot(211)
-plt.title('Using the elbow method to inform k choice')
-plt.plot(k_rng[1:], silhouette_score, 'b*-')
+plt.title('Silhouette coefficient for various values of k')
+plt.plot(k_rng, silhouette_score, 'b*-')
 plt.xlim([1,15])
 plt.grid(True)
 plt.ylabel('Silhouette Coefficient')
-plt.plot(3,silhouette_score[1], 'o', markersize=12, markeredgewidth=1.5,
-         markerfacecolor='None', markeredgecolor='r')
-
-
-
-#================================
-# Option 2: Within Sum of Squares (a.k.a., inertia)
-# Generally want to minimize WSS, while also minimizing k
-
-within_sum_squares = [e.inertia_ for e in est]
-
-# Plot the results
-plt.subplot(212)
-plt.plot(k_rng, within_sum_squares, 'b*-')
-plt.xlim([1,15])
-plt.grid(True)
-plt.xlabel('k')
-plt.ylabel('Within Sum of Squares')
-#plt.plot(3,within_sum_squares[2], 'ro', markersize=12, markeredgewidth=1.5,
-#         markerfacecolor='None', markeredgecolor='r')
