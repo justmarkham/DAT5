@@ -285,7 +285,7 @@ Monday | Wednesday
 * Discuss this article on [Smart Autofill for Google Sheets](http://googleresearch.blogspot.com/2014/10/smart-autofill-harnessing-predictive.html)
 
 **Homework:**
-* Your first [project presentation](other/project.md) is on Monday! Please submit a link to your project repository (with slides, code, and visualizations) before class using the homework submission form.
+* Your first [project presentation](other/project.md) is due on Monday! Please submit a link to your project repository (with slides, code, and visualizations) before class using the homework submission form.
 
 **Optional:**
 * Titanic exercise ([notebook](notebooks/11_titanic_exercise.ipynb))
@@ -392,6 +392,9 @@ Monday | Wednesday
 * Ensembles and random forests ([notebook](notebooks/17_ensembling.ipynb))
 
 **Homework:**
+* Your [project draft](other/project.md#may-18-first-draft-due) is due on Monday! Please submit a link to your project repository (with paper, code, and visualizations) before class using the homework submission form.
+    * Your peers and your instructors will be giving you feedback on your project draft.
+    * Here's an example of a great [final project paper](https://github.com/justmarkham/DAT-project-examples/blob/master/pdf/nba_paper.pdf) from a past student.
 * Make at least one new submission to our [Kaggle competition](https://inclass.kaggle.com/c/dat5-stack-overflow)! We suggest trying Random Forests or building your own ensemble of models. For assistance, you could use this [framework code](code/17_ensembling_exercise.py), or refer to the [complete code](code/15_kaggle.py) from class 15. You can optionally submit your code to us if you want feedback.
 
 **Resources:**
