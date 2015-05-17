@@ -335,7 +335,7 @@ Monday | Wednesday
 -----
 
 ### Class 14: Natural Language Processing
-* Natural Language Processing ([notebook](14_nlp.ipynb))
+* Natural Language Processing ([notebook](notebooks/14_nlp.ipynb))
 * NLTK: tokenization, stemming, lemmatization, part of speech tagging, stopwords, Named Entity Recognition, LDA
 * Alternative: TextBlob
 
@@ -400,3 +400,15 @@ Monday | Wednesday
 **Resources:**
 * scikit-learn documentation: [Ensembles](http://scikit-learn.org/stable/modules/ensemble.html)
 * Quora: [How do random forests work in layman's terms?](http://www.quora.com/How-do-random-forests-work-in-laymans-terms/answer/Edwin-Chen-1)
+
+
+-----
+
+### Class 18: Clustering and Regularization
+* Clustering ([slides](slides/18_clustering.pdf) and [code](code/18_clustering.py))
+* Regularization ([slides](slides/18_regularization.pdf) and [code](code/18_regularization.py))
+
+**Resources:**
+* [Introduction to Data Mining](http://www-users.cs.umn.edu/~kumar/dmbook/index.php) has a nice [chapter on cluster analysis](http://www-users.cs.umn.edu/~kumar/dmbook/ch8.pdf).
+* The scikit-learn user guide has a nice [section on clustering](http://scikit-learn.org/stable/modules/clustering.html).
+* Wikipedia article on [determining the number of clusters](http://en.wikipedia.org/wiki/Determining_the_number_of_clusters_in_a_data_set)
