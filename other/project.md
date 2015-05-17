@@ -50,18 +50,18 @@ Example:
 
 ### May 18: First Draft Due
 
-At a minimum, your project repository on GitHub should contain:
-* A draft of your project paper (in the format specified below)
+**At a minimum**, your project repository on GitHub should contain:
+* A draft of your project paper (in the format specified [below](#june-3-project-presentation-2))
 * Code, with lots of comments
 * Visualizations of your data
 
-Ideally, you would also include:
+**Ideally**, you would also include:
 * Draft slides for presentation #2
 * Data and data dictionary
 
 Your peers and instructors will provide feedback by May 25, according to [these guidelines](peer_review.md).
 
-Tips for success:
+**Tips for success:**
 * The work should stand "on its own", and should not depend upon the reader remembering your first project presentation.
 * The better you explain your project, and the easier it is to follow, the more useful feedback you will receive!
 * If your reviewers can actually run your code on the provided data, they will be able to give you more useful feedback on your code. (It can be very hard to make useful code suggestions on code that can't be run!)
