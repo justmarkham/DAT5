@@ -409,9 +409,12 @@ Monday | Wednesday
 * Regularization ([notebook](notebooks/18_regularization.ipynb) and [code](code/18_regularization.py))
 
 **Resources:**
-* [Introduction to Data Mining](http://www-users.cs.umn.edu/~kumar/dmbook/index.php) has a nice [chapter on cluster analysis](http://www-users.cs.umn.edu/~kumar/dmbook/ch8.pdf).
+* [Introduction to Data Mining](http://www-users.cs.umn.edu/~kumar/dmbook/index.php) has a thorough [chapter on cluster analysis](http://www-users.cs.umn.edu/~kumar/dmbook/ch8.pdf).
 * The scikit-learn user guide has a nice [section on clustering](http://scikit-learn.org/stable/modules/clustering.html).
-* Wikipedia article on [determining the number of clusters](http://en.wikipedia.org/wiki/Determining_the_number_of_clusters_in_a_data_set)
+* Wikipedia article on [determining the number of clusters](http://en.wikipedia.org/wiki/Determining_the_number_of_clusters_in_a_data_set).
+* This [K-means clustering visualization](http://shiny.rstudio.com/gallery/kmeans-example.html) allows you to set different numbers of clusters for the iris data, and this [other visualization](http://asa.1gb.ru/kmeans/1.html) allows you to see the effects of different initial positions for the centroids.
+* Fun examples of clustering: [A Statistical Analysis of the Work of Bob Ross](http://fivethirtyeight.com/features/a-statistical-analysis-of-the-work-of-bob-ross/) (with [data and Python code](https://github.com/fivethirtyeight/data/tree/master/bob-ross)), [How a Math Genius Hacked OkCupid to Find True Love](http://www.wired.com/2014/01/how-to-hack-okcupid/all/), [characteristics of your zip code](http://www.esri.com/landing-pages/tapestry/).
+* An Introduction to Statistical Learning has useful videos on [K-means clustering](https://www.youtube.com/watch?v=aIybuNt9ps4&list=PL5-da3qGB5IBC-MneTc9oBZz0C6kNJ-f2&index=3) (17 minutes), [ridge regression](https://www.youtube.com/watch?v=cSKzqb0EKS0&list=PL5-da3qGB5IB-Xdpj_uXJpLGiRfv9UVXI&index=6) (13 minutes), and [lasso regression](https://www.youtube.com/watch?v=A5I1G1MfUmA&index=7&list=PL5-da3qGB5IB-Xdpj_uXJpLGiRfv9UVXI) (15 minutes).
 * Here is a longer example of [feature scaling](http://nbviewer.ipython.org/github/rasbt/pattern_classification/blob/master/preprocessing/about_standardization_normalization.ipynb) in scikit-learn, with additional discussion of the types of scaling you can use.
 * [Clever Methods of Overfitting](http://hunch.net/?p=22) is a classic post by John Langford.
 
@@ -432,7 +435,40 @@ Monday | Wednesday
 * Use regular expressions to create a list of causes from the homicide data. Your list should look like this: `['shooting', 'shooting', 'blunt force', ...]`. If the cause is not listed for a particular homicide, include it in the list as `'unknown'`.
 
 **Resources:**
+* scikit-learn has an incredibly active [mailing list](https://www.mail-archive.com/scikit-learn-general@lists.sourceforge.net/index.html) that is often much more useful than Stack Overflow for researching a particular function.
+* The scikit-learn documentation includes a [machine learning map](http://scikit-learn.org/stable/tutorial/machine_learning_map/) that may help you to choose the "best" model for your task.
 * In you want to build upon the regex material presented in today's class, Google's Python Class includes an excellent [lesson](https://developers.google.com/edu/python/regular-expressions) (with an associated [video](https://www.youtube.com/watch?v=kWyoYtvJpe4&index=4&list=PL5-da3qGB5IA5NwDxcEJ5dvt8F9OQP7q5)).
 * [regex101](https://regex101.com/#python) is an online tool for testing your regular expressions in real time.
 * If you want to go really deep with regular expressions, [RexEgg](http://www.rexegg.com/) includes endless articles and tutorials.
 * [Exploring Expressions of Emotions in GitHub Commit Messages](http://geeksta.net/geeklog/exploring-expressions-emotions-github-commit-messages/) is a fun example of how regular expressions can be used for data analysis.
+
+
+-----
+
+### Class 20: Databases and SQL
+
+**Homework:**
+* Read this classic paper, which may help you to connect many of the topics we have studied throughout the course: [A Few Useful Things to Know about Machine Learning](http://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf).
+* Your [final project](other/project.md#june-3-project-presentation-2) is due next Wednesday!
+    * Please submit a link to your project repository before Wednesday's class using the homework submission form.
+    * Your presentation should start with a recap of the key information from the previous presentation, but you should spend most of your presentation discussing what has happened since then.
+    * Don't forget to practice your presentation and time yourself!
+
+
+-----
+
+### Class 21: Course Review
+
+**Resources:**
+* [Data science review](https://docs.google.com/document/d/1XCdyrsQwU5OC5os7RHdVTEtS-tpHBbsoKKWLpYI6Svo/edit?usp=sharing): A summary of key concepts from the Data Science course.
+* [Comparing supervised learning algorithms](https://docs.google.com/spreadsheets/d/15_QJXm6urctsbIXO-C_eXrsSffbHedio8z0E5ozxO-M/edit?usp=sharing): Kevin's table comparing the machine learning models we studied in the course.
+* [Choosing a Machine Learning Classifier](http://blog.echen.me/2011/04/27/choosing-a-machine-learning-classifier/): Edwin Chen's short and highly readable guide.
+* [Machine Learning Done Wrong](http://ml.posthaven.com/machine-learning-done-wrong) and [Common Pitfalls in Machine Learning](http://danielnee.com/?p=155): Thoughtful advice on common mistakes to avoid in machine learning.
+* [Practical machine learning tricks from the KDD 2011 best industry paper](http://blog.david-andrzejewski.com/machine-learning/practical-machine-learning-tricks-from-the-kdd-2011-best-industry-paper/): More advanced advice than the resources above.
+* [An Empirical Comparison of Supervised Learning Algorithms](http://www.cs.cornell.edu/~caruana/ctp/ct.papers/caruana.icml06.pdf): Research paper from 2006.
+* [Resources for continued learning!](resources.md)
+
+
+-----
+
+### Class 22: Project Presentation #2
