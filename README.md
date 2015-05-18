@@ -15,7 +15,7 @@ Monday | Wednesday
 **4/27:** Project Presentation #1 | 4/29: Naive Bayes
 5/4: Natural Language Processing | 5/6: Kaggle Stack Overflow
 5/11: Decision Trees | 5/13: Ensembles
-**5/18:** Clustering and Regularization | 5/20: Advanced scikit-learn
+**5/18:** Clustering and Regularization | 5/20: Advanced scikit-learn and Regex
 **5/25:** *No Class* | 5/27: Databases and SQL
 6/1: Course Review | **6/3:** Project Presentation #2
 
@@ -414,3 +414,25 @@ Monday | Wednesday
 * Wikipedia article on [determining the number of clusters](http://en.wikipedia.org/wiki/Determining_the_number_of_clusters_in_a_data_set)
 * Here is a longer example of [feature scaling](http://nbviewer.ipython.org/github/rasbt/pattern_classification/blob/master/preprocessing/about_standardization_normalization.ipynb) in scikit-learn, with additional discussion of the types of scaling you can use.
 * [Clever Methods of Overfitting](http://hunch.net/?p=22) is a classic post by John Langford.
+
+
+-----
+
+### Class 19: Advanced scikit-learn and Regular Expressions
+* Advanced scikit-learn ([code](code/19_advanced_sklearn.py))
+    * Searching for optimal parameters: [GridSearchCV](http://scikit-learn.org/stable/modules/grid_search.html)
+        * [Exercise](code/19_gridsearchcv_exercise.py)
+    * Standardization of features: [StandardScaler](http://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html)
+    * Chaining steps: [Pipeline](http://scikit-learn.org/stable/modules/pipeline.html)
+* Regular expressions ("regex")
+    * Motivating example: [data](data/homicides.txt)
+    * Reference guide: [code](code/19_regex_reference.py)
+
+**Optional:**
+* Use regular expressions to create a list of causes from the homicide data. Your list should look like this: `['shooting', 'shooting', 'blunt force', ...]`. If the cause is not listed for a particular homicide, include it in the list as `'unknown'`.
+
+**Resources:**
+* In you want to build upon the regex material presented in today's class, Google's Python Class includes an excellent [lesson](https://developers.google.com/edu/python/regular-expressions) (with an associated [video](https://www.youtube.com/watch?v=kWyoYtvJpe4&index=4&list=PL5-da3qGB5IA5NwDxcEJ5dvt8F9OQP7q5)).
+* [regex101](https://regex101.com/#python) is an online tool for testing your regular expressions in real time.
+* If you want to go really deep with regular expressions, [RexEgg](http://www.rexegg.com/) includes endless articles and tutorials.
+* [Exploring Expressions of Emotions in GitHub Commit Messages](http://geeksta.net/geeklog/exploring-expressions-emotions-github-commit-messages/) is a fun example of how regular expressions can be used for data analysis.
