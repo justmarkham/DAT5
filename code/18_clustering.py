@@ -46,8 +46,7 @@ plt.figure()
 plt.scatter(data.iloc[:, 2], data.iloc[:, 3], c=colors[y_kmeans], s=50)
 plt.xlabel('Study Time')
 plt.ylabel('Exam Performance')
-plt.scatter(centers[:, 2], centers[:, 3], linewidths=3,
-            marker='+', s=300)
+plt.scatter(centers[:, 2], centers[:, 3], linewidths=3, marker='+', s=300, c='black')
 plt.show()
 
 # We can generate a scatter matrix to see all of the different dimensions paired
