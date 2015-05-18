@@ -84,7 +84,7 @@ preds = lascv.predict(X_test)
 print 'RMSE (Lasso CV reg.) =', np.sqrt(metrics.mean_squared_error(y_test, preds))
 
 ###############################################################################
-##### Regularization with Linear Regression
+##### Regularization with Logistic Regression
 ###############################################################################
 
 ## TASK: Regularized classification
