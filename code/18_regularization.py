@@ -110,14 +110,21 @@ y = titanic.Survived
 # split into train/test
 X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=1)
 
+# standardize our data
+from sklearn.preprocessing import StandardScaler
+scaler = StandardScaler()
+scaler.fit(X_train)
+X_train_scaled = scaler.transform(X_train)
+X_test_scaled = scaler.transform(X_test)
+
 
 ########## Logistic Regression Model Without Regularization ##########
 # logistic regression
 from sklearn.linear_model import LogisticRegression
 logreg = LogisticRegression()
-logreg.fit(X_train, y_train)
+logreg.fit(X_train_scaled, y_train)
 logreg.coef_
-y_pred = logreg.predict(X_test)
+y_pred = logreg.predict(X_test_scaled)
 
 # Access accuracy
 print 'Accuracy (no penalty) =', metrics.accuracy_score(y_test, y_pred)
@@ -126,9 +133,9 @@ print 'Accuracy (no penalty) =', metrics.accuracy_score(y_test, y_pred)
 ########## Logistic Regression With L1 Penalty ##########
 # logistic regression with L1 penalty (C must be positive, smaller means more regularization)
 logreg_l1 = LogisticRegression(C=0.1, penalty='l1')
-logreg_l1.fit(X_train, y_train)
+logreg_l1.fit(X_train_scaled, y_train)
 logreg_l1.coef_
-y_pred_l1 = logreg_l1.predict(X_test)
+y_pred_l1 = logreg_l1.predict(X_test_scaled)
 
 # Access accuracy
 print 'Accuracy (L1 penalty) =', metrics.accuracy_score(y_test, y_pred_l1)
@@ -137,9 +144,9 @@ print 'Accuracy (L1 penalty) =', metrics.accuracy_score(y_test, y_pred_l1)
 ########## Logistic Regression With L2 Penalty ##########
 # logistic regression with L2 penalty (C must be positive, smaller means more regularization)
 logreg_l2 = LogisticRegression(C=0.1, penalty='l2')
-logreg_l2.fit(X_train, y_train)
+logreg_l2.fit(X_train_scaled, y_train)
 logreg_l2.coef_
-y_pred_l2 = logreg_l2.predict(X_test)
+y_pred_l2 = logreg_l2.predict(X_test_scaled)
 
 # Access accuracy
 print 'Accuracy (L2 penalty) =', metrics.accuracy_score(y_test, y_pred_l2)
