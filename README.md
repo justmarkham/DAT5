@@ -413,8 +413,9 @@ Monday | Wednesday
 * The scikit-learn user guide has a nice [section on clustering](http://scikit-learn.org/stable/modules/clustering.html).
 * Wikipedia article on [determining the number of clusters](http://en.wikipedia.org/wiki/Determining_the_number_of_clusters_in_a_data_set).
 * This [K-means clustering visualization](http://shiny.rstudio.com/gallery/kmeans-example.html) allows you to set different numbers of clusters for the iris data, and this [other visualization](http://asa.1gb.ru/kmeans/1.html) allows you to see the effects of different initial positions for the centroids.
-* Fun examples of clustering: [A Statistical Analysis of the Work of Bob Ross](http://fivethirtyeight.com/features/a-statistical-analysis-of-the-work-of-bob-ross/) (with [data and Python code](https://github.com/fivethirtyeight/data/tree/master/bob-ross)), [How a Math Genius Hacked OkCupid to Find True Love](http://www.wired.com/2014/01/how-to-hack-okcupid/all/), [characteristics of your zip code](http://www.esri.com/landing-pages/tapestry/).
+* Fun examples of clustering: [A Statistical Analysis of the Work of Bob Ross](http://fivethirtyeight.com/features/a-statistical-analysis-of-the-work-of-bob-ross/) (with [data and Python code](https://github.com/fivethirtyeight/data/tree/master/bob-ross)), [How a Math Genius Hacked OkCupid to Find True Love](http://www.wired.com/2014/01/how-to-hack-okcupid/all/), and [characteristics of your zip code](http://www.esri.com/landing-pages/tapestry/).
 * An Introduction to Statistical Learning has useful videos on [K-means clustering](https://www.youtube.com/watch?v=aIybuNt9ps4&list=PL5-da3qGB5IBC-MneTc9oBZz0C6kNJ-f2&index=3) (17 minutes), [ridge regression](https://www.youtube.com/watch?v=cSKzqb0EKS0&list=PL5-da3qGB5IB-Xdpj_uXJpLGiRfv9UVXI&index=6) (13 minutes), and [lasso regression](https://www.youtube.com/watch?v=A5I1G1MfUmA&index=7&list=PL5-da3qGB5IB-Xdpj_uXJpLGiRfv9UVXI) (15 minutes).
+* Caltech's Learning From Data course has a great video introducing [regularization](http://work.caltech.edu/library/121.html) (8 minutes) that builds upon their video about the [bias-variance tradeoff](http://work.caltech.edu/library/081.html).
 * Here is a longer example of [feature scaling](http://nbviewer.ipython.org/github/rasbt/pattern_classification/blob/master/preprocessing/about_standardization_normalization.ipynb) in scikit-learn, with additional discussion of the types of scaling you can use.
 * [Clever Methods of Overfitting](http://hunch.net/?p=22) is a classic post by John Langford.
 
@@ -466,7 +467,7 @@ Monday | Wednesday
 * [Machine Learning Done Wrong](http://ml.posthaven.com/machine-learning-done-wrong) and [Common Pitfalls in Machine Learning](http://danielnee.com/?p=155): Thoughtful advice on common mistakes to avoid in machine learning.
 * [Practical machine learning tricks from the KDD 2011 best industry paper](http://blog.david-andrzejewski.com/machine-learning/practical-machine-learning-tricks-from-the-kdd-2011-best-industry-paper/): More advanced advice than the resources above.
 * [An Empirical Comparison of Supervised Learning Algorithms](http://www.cs.cornell.edu/~caruana/ctp/ct.papers/caruana.icml06.pdf): Research paper from 2006.
-* [Resources for continued learning!](resources.md)
+* [Many more resources for continued learning!](other/resources.md)
 
 
 -----
