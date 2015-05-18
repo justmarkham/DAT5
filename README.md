@@ -406,7 +406,7 @@ Monday | Wednesday
 
 ### Class 18: Clustering and Regularization
 * Clustering ([slides](slides/18_clustering.pdf) and [code](code/18_clustering.py))
-* Regularization ([notebook](slides/18_regularization.ipynb) and [code](code/18_regularization.py))
+* Regularization ([notebook](notebooks/18_regularization.ipynb) and [code](code/18_regularization.py))
 
 **Resources:**
 * [Introduction to Data Mining](http://www-users.cs.umn.edu/~kumar/dmbook/index.php) has a nice [chapter on cluster analysis](http://www-users.cs.umn.edu/~kumar/dmbook/ch8.pdf).
