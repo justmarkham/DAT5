@@ -2,7 +2,10 @@
 THE DATA
 
 We have data about cars:  things like MPG, acceleration, weight, etc.  However,
-we don't have labels for these groups.  We want to be able to label
+we don't have logical groupings for these cars.  We can construct these 
+manually using our domain knowledge (e.g. we could put all of the high mpg cars 
+together and all of the low mpg cars together), but we want a more automatic
+way of grouping these vehicles that can take into account more features.
 '''
 
 # Imports
