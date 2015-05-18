@@ -408,6 +408,9 @@ Monday | Wednesday
 * Clustering ([slides](slides/18_clustering.pdf) and [code](code/18_clustering.py))
 * Regularization ([notebook](notebooks/18_regularization.ipynb) and [code](code/18_regularization.py))
 
+**Homework:**
+* You will be assigned to review the project drafts of two of your peers. You have until next Monday to provide them with feedback, according to [these guidelines](other/peer_review.md).
+
 **Resources:**
 * [Introduction to Data Mining](http://www-users.cs.umn.edu/~kumar/dmbook/index.php) has a thorough [chapter on cluster analysis](http://www-users.cs.umn.edu/~kumar/dmbook/ch8.pdf).
 * The scikit-learn user guide has a nice [section on clustering](http://scikit-learn.org/stable/modules/clustering.html).
