@@ -6,11 +6,10 @@ Sources:
     https://docs.python.org/2/library/re.html
 '''
 
-
 '''
 Basic Patterns:
 
-ordinary characters match themselves exactly
+Ordinary characters match themselves exactly
 . matches any single character except newline \n
 \w matches a word character (letter, digit, underscore)
 \W matches any non-word character
@@ -25,70 +24,37 @@ ordinary characters match themselves exactly
 
 Rules for Searching:
 
-search proceeds through string from start to end, stopping at first match
-all of the pattern must be matched
+Search proceeds through string from start to end, stopping at first match
+All of the pattern must be matched
 
 Basic Search Function:
 
 match = re.search(r'pattern', string_to_search)
-returns match object
-if there is a match, access match using match.group()
-if there is no match, match is None
-use 'r' in front of pattern to designate a raw string
+Returns match object
+If there is a match, access match using match.group()
+If there is no match, match is None
+Use 'r' in front of pattern to designate a raw string
 '''
 
 import re
 
 s = 'my 1st string!!'
 
-match = re.search(r'st', s)
-if match: match.group()         # 'st'
+match = re.search(r'my', s)     # returns match object
+if match:                       # checks whether match was found
+    print match.group()         # if match was found, then print result
 
-match = re.search(r'sta', s)
-if match: match.group()         # None
-
-match = re.search(r'\w\w\w', s)
-if match: match.group()         # '1st'
-
-match = re.search(r'\W', s)
-if match: match.group()         # ' '
-
-match = re.search(r'\W\W', s)
-if match: match.group()         # '!!'
-
-match = re.search(r'\s', s)
-if match: match.group()         # ' '
-
-match = re.search(r'\s\s', s)
-if match: match.group()         # None
-
-match = re.search(r'..t', s)
-if match: match.group()         # '1st'
-
-match = re.search(r'\s\St', s)
-if match: match.group()         # ' st'
-
-match = re.search(r'\bst', s)
-if match: match.group()         # 'st'
-
-
-'''
-Positions:
-
-^ match start of a string
-$ match end of a string
-'''
-
-s = 'sid is missing class'
-
-match = re.search(r'^miss', s)
-if match: match.group()         # None
-
-match = re.search(r'..ss', s)
-if match: match.group()         # 'miss'
-
-match = re.search(r'..ss$', s)
-if match: match.group()         # 'lass'
+re.search(r'my', s).group()     # single-line version (without error handling)
+re.search(r'st', s).group()     # 'st'
+re.search(r'sta', s).group()    # error
+re.search(r'\w\w\w', s).group() # '1st'
+re.search(r'\W', s).group()     # ' '
+re.search(r'\W\W', s).group()   # '!!'
+re.search(r'\s', s).group()     # ' '
+re.search(r'\s\s', s).group()   # error
+re.search(r'..t', s).group()    # '1st'
+re.search(r'\s\St', s).group()  # ' st'
+re.search(r'\bst', s).group()   # 'st'
 
 
 '''
@@ -100,27 +66,33 @@ Repetition:
 
 + and * are 'greedy': they try to use up as much of the string as possible
 
-add ? after + or * to make them non-greedy: +? or *?
+Add ? after + or * to make them non-greedy: +? or *?
 '''
 
 s = 'sid is missing class'
 
-match = re.search(r'miss\w+', s)
-if match: match.group()         # 'missing'
-
-match = re.search(r'is\w+', s)
-if match: match.group()         # 'issing'
-
-match = re.search(r'is\w*', s)
-if match: match.group()         # 'is'
+re.search(r'miss\w+', s).group()    # 'missing'
+re.search(r'is\w+', s).group()      # 'issing'
+re.search(r'is\w*', s).group()      # 'is'
 
 s = '<h1>my heading</h1>'
 
-match = re.search(r'<.+>', s)
-if match: match.group()         # '<h1>my heading</h1>'
+re.search(r'<.+>', s).group()   # '<h1>my heading</h1>'
+re.search(r'<.+?>', s).group()  # '<h1>'
 
-match = re.search(r'<.+?>', s)
-if match: match.group()         # '<h1>'
+
+'''
+Positions:
+
+^ match start of a string
+$ match end of a string
+'''
+
+s = 'sid is missing class'
+
+re.search(r'^miss', s).group()  # error
+re.search(r'..ss', s).group()   # 'miss'
+re.search(r'..ss$', s).group()  # 'lass'
 
 
 '''
@@ -135,36 +107,30 @@ Brackets:
 
 s = 'my email is john-doe@gmail.com'
 
-match = re.search(r'\w+@\w+', s)
-if match: match.group()         # 'doe@gmail'
-
-match = re.search(r'[\w.-]+@[\w.-]+', s)
-if match: match.group()         # 'john-doe@gmail.com'
+re.search(r'\w+@\w+', s).group()            # 'doe@gmail'
+re.search(r'[\w.-]+@[\w.-]+', s).group()    # 'john-doe@gmail.com'
 
 
 '''
 Lookarounds:
 
-lookahead matches a pattern only if it is followed by another pattern
+Lookahead matches a pattern only if it is followed by another pattern
 100(?= dollars) matches '100' only if it is followed by ' dollars'
 
-lookbehind matches a pattern only if it is preceded by another pattern
+Lookbehind matches a pattern only if it is preceded by another pattern
 (?<=\$)100 matches '100' only if it is preceded by '$'
 '''
 
 s = 'Name: Cindy, 30 years old'
 
-match = re.search(r'\d+(?= years? old)', s)
-if match: match.group()         # '30'
-
-match = re.search(r'(?<=Name: )\w+', s)
-if match: match.group()         # 'Cindy'
+re.search(r'\d+(?= years? old)', s).group()     # '30'
+re.search(r'(?<=Name: )\w+', s).group()         # 'Cindy'
 
 
 '''
 Match Groups:
 
-parentheses create logical groups inside of match text
+Parentheses create logical groups inside of match text
 match.group(1) corresponds to first group
 match.group(2) corresponds to second group
 match.group() corresponds to entire match text (as usual)
@@ -185,20 +151,19 @@ Finding All Matches:
 re.findall() finds all matches and returns them as a list of strings
 list_of_strings = re.findall(r'pattern', string_to_search)
 
-if pattern includes parentheses, a list of tuples is returned
+If pattern includes parentheses, a list of tuples is returned
 '''
 
 s = 'emails: joe@gmail.com, bob@gmail.com'
 
 re.findall(r'[\w.-]+@[\w.-]+', s)       # ['joe@gmail.com', 'bob@gmail.com']
-
 re.findall(r'([\w.-]+)@([\w.-]+)', s)   # [('joe', 'gmail.com'), ('bob', 'gmail.com')]
 
 
 '''
 Option Flags:
 
-options flags modify the behavior of the pattern matching
+Options flags modify the behavior of the pattern matching
 
 default: matching is case sensitive
 re.IGNORECASE: ignore uppercase/lowercase differences ('a' matches 'a' or 'A')
@@ -209,7 +174,7 @@ re.DOTALL: allow period to match newline
 default: within a string of many lines, ^ and $ match start and end of entire string
 re.MULTILINE: allow ^ and $ to match start and end of each line
 
-option flag is third argument to re.search() or re.findall()
+Option flag is third argument to re.search() or re.findall():
 re.search(r'pattern', string_to_search, re.IGNORECASE)
 re.findall(r'pattern', string_to_search, re.IGNORECASE)
 '''
@@ -217,7 +182,6 @@ re.findall(r'pattern', string_to_search, re.IGNORECASE)
 s = 'emails: nicole@ga.co, joe@gmail.com, PAT@GA.CO'
 
 re.findall(r'\w+@ga\.co', s)                # ['nicole@ga.co']
-
 re.findall(r'\w+@ga\.co', s, re.IGNORECASE) # ['nicole@ga.co', 'PAT@GA.CO']
 
 
@@ -227,7 +191,7 @@ Substitution:
 re.sub() finds all matches and replaces them with a specified string
 new_string = re.sub(r'pattern', r'replacement', string_to_search)
 
-replacement string can refer to text from matching groups:
+Replacement string can refer to text from matching groups:
 \1 refers to group(1)
 \2 refers to group(2)
 etc.
