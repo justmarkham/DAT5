@@ -432,7 +432,7 @@ Monday | Wednesday
     * Standardization of features: [StandardScaler](http://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html)
     * Chaining steps: [Pipeline](http://scikit-learn.org/stable/modules/pipeline.html)
 * Regular expressions ("regex")
-    * Motivating example: [data](data/homicides.txt)
+    * Motivating example: [data](data/homicides.txt), [code](code/19_regex_exercise.py)
     * Reference guide: [code](code/19_regex_reference.py)
 
 **Optional:**
