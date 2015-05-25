@@ -52,6 +52,7 @@ cur.fetchmany(4)
 # Also note that the results weren't stored anywhere, only printed out.  To 
 # keep them, we must put them in a variable
 
+cur.execute("SELECT name FROM sqlite_master WHERE type='table'")
 tables = cur.fetchall()
 tables
 
