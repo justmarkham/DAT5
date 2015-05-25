@@ -450,6 +450,7 @@ Monday | Wednesday
 -----
 
 ### Class 20: Databases and SQL
+* Databases and SQL ([slides](slides/20_sql.pdf) and [code](code/20_sql.py))
 
 **Homework:**
 * Read this classic paper, which may help you to connect many of the topics we have studied throughout the course: [A Few Useful Things to Know about Machine Learning](http://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf).
