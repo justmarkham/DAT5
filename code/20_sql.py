@@ -22,7 +22,7 @@ import sqlite3 as lite
 ##### Connecting to a Database #####
 
 # Connect to a local database (it's basically just a file)
-con = lite.connect('../data/sales.db')
+con = lite.connect('sales.db')
 con
 
 # Create a Cursor object.  This let's you browse your database
@@ -345,7 +345,7 @@ reading data from a CSV file, we get it from a database.
 ##### Training #####
 
 # Open new connection
-con = lite.connect('../data/vehicles.db')
+con = lite.connect('vehicles.db')
 
 # Get training data from database
 train = pd.read_sql_query('SELECT * FROM vehicle_train', con=con)
