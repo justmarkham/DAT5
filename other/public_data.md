@@ -23,6 +23,7 @@
      * [Amazon Web Services Public Data Sets](http://aws.amazon.com/datasets/)
      * [Kaggle](http://www.kaggle.com/) provides datasets with their challenges, but each competition has its own rules as to whether the data can be used outside of the scope of the competition.
 * Big lists of datasets:
+     * [Awesome Public Datasets](https://github.com/caesar0301/awesome-public-datasets): Well-organized and frequently updated
      * [Rdatasets](http://vincentarelbundock.github.io/Rdatasets/): collection of 700+ datasets originally distributed with R packages
      * [RDataMining.com](http://www.rdatamining.com/resources/data)
      * [KDnuggets](http://www.kdnuggets.com/datasets/index.html)
@@ -36,6 +37,8 @@
      * [Python APIs](http://www.pythonforbeginners.com/api/list-of-python-apis): Python wrappers for many APIs
 * Other interesting datasets:
      * [FiveThirtyEight](https://github.com/fivethirtyeight/data): data and code related to their articles
+     * [The Upshot](https://github.com/TheUpshot/): data related to their articles
+     * [Yelp Dataset Challenge](http://www.yelp.com/dataset_challenge): Yelp reviews, business attributes, users, and more from 10 cities
      * [Donors Choose](http://data.donorschoose.org/open-data/overview/): data related to their projects
      * [200,000+ Jeopardy questions](http://www.reddit.com/r/datasets/comments/1uyd0t/200000_jeopardy_questions_in_a_json_file/)
      * [CrowdFlower](http://www.crowdflower.com/data-for-everyone): interesting datasets created or enhanced by their contributors
