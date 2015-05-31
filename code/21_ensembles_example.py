@@ -72,7 +72,7 @@ y_prob_logreg = logreg.predict_proba(test[feature_cols_logreg])[:, 1]
 Five feature random forest model
 '''
 # Define feature cols
-feature_cols_rf = ['TitleLength', 'TitleLowercase', 'TitleQuestion', 'TitleNeed', 'TitleHelp']
+feature_cols_rf = ['TitleLowercase', 'TitleQuestion', 'TitleNeed', 'TitleHelp']
 
 # Perform cross validation to get an idea of the performance of the model
 rf = RandomForestClassifier()
@@ -103,7 +103,7 @@ y_prob_pipe = pipe.predict_proba(test['Title'])[:, 1]
 Create submission
 '''
 # Ensemble predictions
-y_prob_combined = (y_prob_logreg + y_prob_rf + y_prob_pipe) / 3
+y_prob_combined = (y_prob_logreg + y_prob_rf + 2*y_prob_pipe) / 3
 
 # Create a DataFrame that has 'id' as the index, then export to a CSV file
 sub = pd.DataFrame({'id':test.index, 'OpenStatus':y_prob_combined}).set_index('id')
