@@ -470,9 +470,11 @@ Monday | Wednesday
 -----
 
 ### Class 21: Course Review
+* Pipelines ([code](code/19_advanced_sklearn.py))
+* Class review
+* Creating an ensemble ([code](code/21_ensembles_example.py))
 
 **Resources:**
-* [Data science review](https://docs.google.com/document/d/1XCdyrsQwU5OC5os7RHdVTEtS-tpHBbsoKKWLpYI6Svo/edit?usp=sharing): A summary of key concepts from the Data Science course.
 * [Comparing supervised learning algorithms](https://docs.google.com/spreadsheets/d/15_QJXm6urctsbIXO-C_eXrsSffbHedio8z0E5ozxO-M/edit?usp=sharing): Kevin's table comparing the machine learning models we studied in the course.
 * [Choosing a Machine Learning Classifier](http://blog.echen.me/2011/04/27/choosing-a-machine-learning-classifier/): Edwin Chen's short and highly readable guide.
 * [Machine Learning Done Wrong](http://ml.posthaven.com/machine-learning-done-wrong) and [Common Pitfalls in Machine Learning](http://danielnee.com/?p=155): Thoughtful advice on common mistakes to avoid in machine learning.
