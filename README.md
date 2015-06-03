@@ -487,3 +487,14 @@ Monday | Wednesday
 -----
 
 ### Class 22: Project Presentation #2
+* Presentations!
+ 
+**Class is over!  What should I do now?**
+* Take a break!
+* Go back through class notes/code/videos to make sure you feel comfortable with what we've learned.
+* Take a look at the **Resources** for each class to get a deeper understanding of what we've learned.  Start with the **Resources** from Class 21 and move to topics you are most interested in.
+* You might not realize it, but you are at a point where you can continue learning on your own.  You have all of the skills necessary to read papers, blogs, documentation, etc.
+* Follow data scientists on Twitter.  This will help you stay up on the latest news/models/applications/tools.
+* Participate in [Data Community DC](http://www.datacommunitydc.org/) events.  They sponsor meetups, workshops, etc, notably the [Data Science DC Meetup](http://www.meetup.com/Data-Science-DC/).  Sign up for their [newsletter](http://www.datacommunitydc.org/newsletter/) also!
+* Read blogs to keep learning.  I really like [District Data Labs](http://districtdatalabs.silvrback.com/).
+* Do Kaggle competitions!  This is a good way to continue and hone your skillset.  Plus, you'll learn a ton along the wya.
