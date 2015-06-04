@@ -497,4 +497,4 @@ Monday | Wednesday
 * Follow data scientists on Twitter.  This will help you stay up on the latest news/models/applications/tools.
 * Participate in [Data Community DC](http://www.datacommunitydc.org/) events.  They sponsor meetups, workshops, etc, notably the [Data Science DC Meetup](http://www.meetup.com/Data-Science-DC/).  Sign up for their [newsletter](http://www.datacommunitydc.org/newsletter/) also!
 * Read blogs to keep learning.  I really like [District Data Labs](http://districtdatalabs.silvrback.com/).
-* Do Kaggle competitions!  This is a good way to continue and hone your skillset.  Plus, you'll learn a ton along the wya.
+* Do Kaggle competitions!  This is a good way to continue and hone your skillset.  Plus, you'll learn a ton along the way.
