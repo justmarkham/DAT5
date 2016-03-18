@@ -2,7 +2,7 @@
 
 Course materials for [General Assembly's Data Science course](https://generalassemb.ly/education/data-science/washington-dc/) in Washington, DC (3/18/15 - 6/3/15).
 
-**Instructors:** Kevin Markham and Brandon Burroughs
+**Instructors:** Brandon Burroughs and Kevin Markham ([Data School blog](http://www.dataschool.io/), [email newsletter](http://www.dataschool.io/subscribe/), [YouTube channel](https://www.youtube.com/user/dataschool))
 
 Monday | Wednesday
 --- | ---
